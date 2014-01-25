@@ -1,0 +1,39 @@
+
+;; ----- smex-history -----
+(
+ query-replace
+ revert-buffer
+ indent-region
+ shell
+ eval-expression
+ eval-defun
+ split-window-horizontally
+)
+
+;; ----- smex-data -----
+(
+ (package-install . 3)
+ (describe-key . 4)
+ (imenu . 2)
+ (revert-buffer . 11)
+ (dired . 1)
+ (apropos . 5)
+ (start-kbd-macro . 2)
+ (end-kbd-macro . 17)
+ (call-last-kbd-macro . 1)
+ (replace-string . 11)
+ (eshell . 7)
+ (undo . 5)
+ (query-replace . 18)
+ (goto-line . 7)
+ (haskell-hoogle . 1)
+ (hoogle . 1)
+ (split-window-horizontally . 4)
+ (name-last-kbd-macro . 1)
+ (x . 11)
+ (recover-file . 2)
+ (eval-defun . 1)
+ (eval-expression . 1)
+ (shell . 3)
+ (indent-region . 2)
+)

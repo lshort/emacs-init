@@ -1,0 +1,21 @@
+# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
+export PGDATA=/usr/local/pgsql/data
+
+alias lls='ls -latrd'
+alias ll='ls -latrd *'
+alias rsession='rdesktop -f -u short.l www.astronautics.com'
+
+export PKG_CONFIG_PATH='/usr/lib/pkgconfig:/usr/share/pkgconfig'
+# export GHC_PACKAGE_PATH='.:/home/los/haskell/SOE/src'
+export PATH=~/.cabal/bin:/usr/lib64/mysql:$PATH
+export LD_LIBRARY_PATH=/usr/local/lib:.
+export CMAKE_CXX_COMPILER=/usr/bin/gcc
+
+
+# User specific aliases and functions

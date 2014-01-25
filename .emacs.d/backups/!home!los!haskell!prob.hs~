@@ -1,0 +1,152 @@
+import Data.List
+import qualified Data.IntMap as IM
+import Data.Maybe
+import Data.Ord
+import Debug.Trace
+import Control.Monad
+
+compress :: Eq a => [a] -> [a]
+compress [] = []
+compress [x] = [x]
+compress (x:y:zs) 
+  | x == y    = compress (y:zs)
+  | otherwise = x : compress (y:zs)
+
+  
+splt :: [a] -> Int -> ([a],[a])
+splt xs n = helper n ([],xs)
+   where helper 0 (a,b) = (a,b)
+         helper _ (a,[]) = (a,[])
+         helper m (a,b:bs) = helper (m-1) (a++[b],bs)
+
+slice :: [a] -> Int -> Int -> [a]
+slice [] _ _ = []
+slice (x:xs) m n 
+   | n < 1       = []
+   | m > 1       =  slice xs (m-1) (n-1)
+   | otherwise   =  let b = slice xs (m-1) (n-1) in x:b
+
+rot :: [a] -> Int -> [a]
+rot xs n = drop n xs ++ take n xs
+
+remK :: [a] -> Int -> [a]
+remK [] _ = []
+remK (x:xs) n 
+   | n < 1   = x:xs
+   | n == 1  = xs
+   | otherwise = x : remK xs (n-1)
+
+comb :: Int -> [a] -> [[a]]
+comb 0 _   = [[]]
+comb n xs = [ y:xs' | y:ys <- tails xs, xs' <- comb (n-1) ys ]
+
+grp :: Eq a => [Int] -> [a] -> [[[a]]]
+grp [] [] = [[]]
+grp [] _  = error "invalid length"
+grp _  [] = error "invalid length"
+grp (n:ns) xs = [ b:d  | b <- comb n xs, d <- grp ns (xs \\ b) ]
+
+cmpLen :: Ord a => [a] -> [a] -> Ordering
+cmpLen xs ys = compare (length xs) (length ys)
+
+lsort :: Ord a => [[a]] -> [[a]]
+lsort = sortBy cmpLen
+
+mkLfMap :: [[a]] -> IM.IntMap Int
+mkLfMap xss = 
+      let yss = (group . sort . map length) xss
+      in helper yss
+   where helper [] = IM.empty
+         helper (x:xs) = IM.insert (head x) (length x) (helper xs)
+
+lengthFrq :: [a] -> IM.IntMap Int -> Int
+lengthFrq xs m = fromMaybe 0 $ IM.lookup (length xs) m
+
+cmpLn :: IM.IntMap Int -> [a] -> [a] -> Ordering
+cmpLn m xs ys = compare (lengthFrq xs m) (lengthFrq ys m)
+
+lfsort :: [[a]] -> [[a]]
+lfsort xss = sortBy (cmpLn lenMap) xss
+   where 
+     lenMap = mkLfMap xss
+
+candidates = map (\x -> 2*x+1) [1..]
+
+sieve :: [Int] -> [Int]
+sieve xs = 
+   let ys = filter (\z -> 0 /= z `mod` head xs) xs
+   in seq ys $ head xs:sieve ys
+
+primes = 2:sieve candidates
+
+table :: Int -> ([Bool] -> Bool) -> IO ()
+table m f = mapM_ putStrLn [ format xs ++ show (f xs) | xs <- args m ]
+   where args n = replicateM n [True,False]
+         format xs = unwords (intersperse " " $ map show xs) ++ "     "
+
+nthFib :: Int -> Int
+nthFib = (map fib [0..] !!)
+  where fib 0 = 0
+        fib 1 = 1
+        fib n = nthFib (n-1) + nthFib (n-2)
+
+fromListLazy :: [(IM.Key,a)] -> IM.IntMap a
+fromListLazy xs = foldl ins IM.empty xs
+   where ins t (k,x) = IM.insert k x t
+
+fib' :: Int -> Int
+fib' x = let hash = fromListLazy $ zip [0..] $ map fib [0..]
+         in  hash IM.! x
+   where fib 0 = 0
+         fib 1 = 1
+         fib n = fib' (n-1) + fib' (n-2)
+
+data Tree a = Empty | Branch a (Tree a) (Tree a) deriving Show
+
+leaf x = Branch x Empty Empty
+
+balanced :: Int -> [Tree Char]
+balanced n 
+   |  n <= 0    = [Empty]
+   |  otherwise = let left = (n-1) `div` 2
+                      right = n - left - 1
+                  in [ Branch 'x' a b | a <- balanced left, 
+                                        b <- balanced right] ++ 
+                     if even n then [ Branch 'x' b a | a <- balanced left, 
+                                                      b <- balanced right] 
+                              else []
+
+minBalN :: Int -> Int
+minBalN height
+   | height < 0   = 0
+   | height == 0  = 1
+   | otherwise    = minBalN (height-1) + 1 + minBalN (height-2)
+
+{-
+balancedH :: Int -> [Tree Char]
+balancedH n = bal' n 0
+  where bal' n 
+      | n <= 0    = [Empty]
+      | otherwise = undefined
+-}
+
+leafCount :: Tree a -> Int
+leafCount Empty = 0
+leafCount (Branch _ Empty Empty) = 1
+leafCount (Branch _ l r) = leafCount l + leafCount r
+
+                     
+symmetric :: Tree a -> Bool
+symmetric (Empty) = True
+symmetric (Branch _ Empty (Branch _ _ _)) = False
+symmetric (Branch _ (Branch _ _ _) Empty) = False
+symmetric (Branch _ left right) = symmetric left && symmetric right
+
+construct :: (Show a, Ord a) => [a] -> Tree a
+construct = construct' . sort
+  where construct' [] = Empty
+        construct' xs = let n = length xs
+                            mid = (n) `div` 2
+                        in Branch (xs !! mid) (construct' $ take mid xs)
+                                  (construct' $ drop (mid+1) xs)
+

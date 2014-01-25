@@ -1,0 +1,42 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+#
+#	new file:   dist/build/autogen/Paths_encounters.hs
+#	new file:   dist/build/autogen/Paths_snap_example2.hs
+#	new file:   dist/build/autogen/Paths_snap_sql_example.hs
+#	new file:   dist/build/autogen/cabal_macros.h
+#	new file:   dist/build/encounters/encounters
+#	new file:   dist/package.conf.inplace
+#	new file:   dist/setup-config
+#	new file:   encounters.cabal
+#	new file:   resources/static/screen.css
+#	new file:   resources/templates/creatures.tpl
+#	new file:   resources/templates/creatures_test.tpl
+#	new file:   resources/templates/levels.tpl
+#	new file:   resources/templates/nav.tpl
+#	new file:   resources/templates/region_and_encounter_page.tpl
+#	new file:   resources/templates/region_encounter.tpl
+#	new file:   resources/templates/regions.tpl
+#	new file:   resources/templates/templates.tpl
+#	new file:   src/Application.hs
+#	new file:   src/BuildTables.hs
+#	new file:   src/CreatureTables.hs
+#	new file:   src/Main.hs
+#	new file:   src/Query.hs
+#	new file:   src/Site.hs
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	.git.old/
+#	resources/templates.old/
+#	src/BuildTables
+#	src/Site.hs.old
+#	src/Snap/

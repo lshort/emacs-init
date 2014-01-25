@@ -1,0 +1,18 @@
+
+import Text.ParserCombinators.Parsec 
+
+newtype String TimeStamp
+
+twoDigits :: Parser [Char]
+twoDigits = digit >>= digit
+
+timeFormat :: Parser [Char]
+timeFormat = 
+
+timedLine :: Parser ([Char],TimeStamp)
+timedLine = 
+
+readLine :: String -> (String,TimeStamp)
+readLine input = case parse timedLine input of 
+   Left _ -> ""
+   Right val -> val ++ "\n"

@@ -1,0 +1,33 @@
+import           Control.Applicative
+import           Control.Monad
+import           Data.Maybe
+import           Data.List
+import           Data.ByteString.Internal
+import qualified Data.Text.Encoding as T
+import qualified Data.Text as DT
+import           Debug.Trace
+import           System.Random
+import           System.IO.Unsafe
+
+type RandomSource = Int -> IO Int
+type RandomizedAlgorithm = RandomSource -> IO Int
+
+findExpected :: RandomSource -> RandomizedAlgorithm -> Int -> IO Double
+findExpected source alg count = do
+    let total = fromIntegral $ sum (take count $ valueList alg source)
+    print total
+    return $ total / (fromIntegral count)
+  where
+    valueList a s = (unsafePerformIO $ a s):(valueList a s)
+
+consecutiveHeads :: RandomizedAlgorithm
+consecutiveHeads roller = do
+  let coins = map (unsafePerformIO . roller) (repeat 2)
+  return $ length $ takeWhile (==1) coins
+
+rollDie :: RandomSource
+rollDie sides = getStdRandom (randomR (1,sides))
+
+main = do
+  a <- findExpected rollDie consecutiveHeads 100
+  print a

@@ -1,0 +1,42 @@
+
+import Control.Monad
+import Control.Applicative
+import System.Random
+import Data.HashMap.Strict
+
+type RollCounter = HashMap Int Int
+
+rollD6 :: IO Int
+rollD6 = getStdRandom (randomR (0,5))
+
+mPlus :: IO Int -> IO Int -> IO Int
+mPlus = liftM2 (+)
+
+rollOpen :: IO Int
+rollOpen = rollD6 >>= (\x -> if x == 5
+                         then do y <- rollOpen
+                                 return $ x + y
+                         else return x)
+
+roll4open :: IO Int
+roll4open = mPlus (mPlus rollD6 rollD6) (mPlus rollD6 rollD6) >>=
+    (\x -> case x of
+       0  -> do y <- rollOpen
+                return $ 0 - y
+       20 -> do y <- rollOpen
+                return $ 20 + y
+       _  -> return x)
+
+oneTest :: RollCounter -> IO RollCounter
+oneTest m = roll4open >>= (\s -> let  k = lookupDefault 0 s m in 
+   return $ insert s (k+1) m )
+
+printOnce :: IO ()
+printOnce = do
+   s <- roll4open
+   print $ show s
+
+main = do
+   m <- s
+
+   

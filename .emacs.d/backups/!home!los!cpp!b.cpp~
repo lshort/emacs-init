@@ -1,0 +1,68 @@
+#include <string.h>
+#include <cstdlib>
+#include <stdio.h>
+#include <vector>
+#include <algorithm>
+#include <iostream>
+#include <tuple>
+#include <utility>
+#include <memory>
+
+
+using namespace std;
+
+
+string get_single_code( char in )  
+{
+  if ( in < '1' || in > '9' )
+    return string();
+  else
+    return string(1,'a' + in - '1');
+}
+ 
+string get_double_code( char in1, char in2 )  
+{
+  if ( in1 == '1' && in2 >= '0' && in2 <= '9' )
+    return string(1,'j' + in2 - '0');
+  if ( in1 == '2' && in2 >= '0' && in2 <= '6' )
+    return string(1,'t' + in2 - '0');
+  return string();
+}
+
+unique_ptr<vector<string> >  codes( string cs )  {
+  int count = 0;
+  vector<string> perms_n2{""};  // permutations of n-2 characters 
+  vector<string> perms_n1{""};  // permutations of n-1 characters
+  vector<string> temp;
+  for (int n=0; n<cs.length(); n++)  {
+    string next = get_single_code( cs[n] );
+    if ( 0 == next.length() )
+      break; // return ??
+    for ( auto x : perms_n1 )
+      temp.push_back( x + next );
+    if ( n>0 )  {
+      string next_prev = get_double_code( cs[n-1], cs[n] );
+      if ( 0 != next_prev.length() )
+        for ( auto y : perms_n2 )
+          temp.push_back( y + next_prev );
+    }
+    swap(perms_n2,perms_n1);
+    swap(perms_n1,temp);
+    temp.clear();
+  }
+  unique_ptr<vector<string> > t( new vector<string> (perms_n1) );
+  return move(t);
+}
+
+void print_all( vector<string> stuff )  
+{
+  for (auto s: stuff)
+    cout << s << endl;
+};
+
+int main( int argc, char *argv[] )  {
+  unique_ptr<vector<string>> tt;
+  tt = codes("1123");
+  print_all( *tt );
+  cout << endl; 
+}

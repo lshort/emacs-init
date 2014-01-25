@@ -1,0 +1,247 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/los/Haskell-Playground/yesod/" . "src/")
+ ("/run/media/los/F8B0B1F1B0B1B70A/Documents and Settings/short.l/Desktop/OA_Core_262314/Health_Services_262090/Source/" . "HMCORE/")
+ ("/home/los/JVM-Bridge/javavm-interface/Haskell/Foreign/JavaVM/" . "Raw/")
+ ("/home/los/JVM-Bridge/javavm-interface/Haskell/Foreign/JavaVM/VM/" . "Method/")
+ ("/home/los/JVM-Bridge/javavm-interface/Haskell/Foreign/" . "JavaVM/")
+ ("/home/los/JVM-Bridge/javavm-interface/Haskell/" . "Foreign/")
+ ("/home/los/JVM-Bridge/javavm-interface/" . "Haskell/")
+ ("/home/los/JVM-Bridge/javavm-typed/Foreign/JavaVM/" . "Typed/")
+ ("/home/los/JVM-Bridge/javavm-typed/Foreign/" . "JavaVM/")
+ ("/home/los/JVM-Bridge/javavm-typed/" . "Foreign/")
+ ("/home/los/JVM-Bridge/javavm/Platform/JavaVM/" . "Types/")
+ ("/home/los/JVM-Bridge/javavm/Platform/" . "JavaVM/")
+ ("/home/los/JVM-Bridge/javavm/" . "Platform/")
+ ("/home/los/JVM-Bridge/" . "javavm-interface/")
+ ("/home/los/Downloads/" . "haskell-mode-2.8.0/")
+ ("/home/los/Haskell-Playground/example-snap-0.8/snaplets/heist/" . "templates/")
+ ("/home/los/Haskell-Playground/example-snap-0.8/snaplets/" . "heist/")
+ ("/home/los/encounters/" . "src/")
+ ("/home/los/Haskell-Playground/example-snap-0.8/" . "snaplets/")
+ ("/home/los/Haskell-Playground/x3/" . "src/")
+ ("/media/" . "0C12-876D/")
+ ("/" . "media/")
+ ("/home/los/Haskell-Playground-2/encounters/resources/" . "templates/")
+ ("/home/los/Haskell-Playground-2/encounters/" . "resources/")
+ ("/home/los/.emacs.d/elpa/" . "starter-kit-bindings-2.0.2/")
+ ("/home/los/.emacs.d/" . "elpa/")
+ ("/home/los/Haskell-Playground/encounters/" . "src/")
+ ("/home/los/Haskell-Playground/" . "encounters/")
+ ("/home/los/" . "haskell/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/los/Haskell-Playground/yesod/"
+ "/home/los/Haskell-Playground/yesod/src/"
+ "/home/los/Haskell-Playground/encounters/src/"
+ "/home/los/Haskell-Playground/yesod/templates/"
+ "/home/los/Haskell-Playground/encounters/resources/templates/"
+ "/run/media/los/F8B0B1F1B0B1B70A/Documents and Settings/short.l/Desktop/OA_Core_262314/Health_Services_262090/Source/HMCORE/"
+ "/run/media/los/F8B0B1F1B0B1B70A/Documents and Settings/short.l/Desktop/OA_Core_262314/Health_Services_262090/Source/WHMain/"
+ "/run/media/los/F8B0B1F1B0B1B70A/Documents and Settings/short.l/Desktop/OA_Core_262314/Health_Services_262090/Source/HMOHMF/"
+ "/home/los/python/google-python-exercises/babynames/"
+ "/home/los/python/google-python-exercises/basic/"
+ "/home/los/python/google-python-exercises/"
+ "/home/los/haskell/"
+ "/home/los/.emacs.d/"
+ "/home/los/"
+ "/home/los/JVM-Bridge/javavm-interface/Haskell/test/"
+ "/home/los/JVM-Bridge/javavm-interface/Haskell/Foreign/JavaVM/Raw/"
+ "/home/los/JVM-Bridge/javavm-interface/Haskell/Foreign/JavaVM/VM/Method/"
+ "/home/los/JVM-Bridge/javavm-interface/Haskell/Foreign/JavaVM/VM/"
+ "/home/los/JVM-Bridge/javavm-typed/Foreign/JavaVM/Typed/"
+ "/home/los/JVM-Bridge/javavm/Platform/JavaVM/Types/"
+ "/home/los/JVM-Bridge/javavm-interface/Haskell/"
+ "/home/los/JVM-Bridge/javavm-interface/Native/"
+ "/media/F8B0B1F1B0B1B70A/Users/short.l/Desktop/OA_Core_262314/IO_Service_262087/Source/IOServApi/"
+ "/home/los/Downloads/haskell-mode-2.8.0/"
+ "/home/los/Haskell-Playground/example-snap-0.8/snaplets/heist/templates/"
+ "/home/los/Haskell-Playground/example-snap-0.8/"
+ "/home/los/encounters/src/"
+ "/home/los/Haskell-Playground/example-snap-0.8/src2/"
+ "/home/los/Haskell-Playground/example-snap-0.8/src/"
+ "/home/los/Haskell-Playground/example-snap-0.8/src.orig/"
+ "/home/los/Haskell-Playground/cheese2/"
+ "/home/los/Haskell-Playground/encounters2/src/"
+ "/home/los/Haskell-Playground/x3/src/"
+ "/home/los/Haskell-Playground/encounters/"
+ "/home/los/logs/logs116/"
+ "/home/los/logs/right/"
+ "/home/los/Downloads/"
+ "/home/los/Downloads/tmp/t2/"
+ "/media/0C12-876D/"
+ "/home/los/Haskell-Playground-2/encounters/src/"
+ "/home/los/Haskell-Playground-2/encounters/resources/templates/"
+ "/home/los/.emacs.d/elpa/starter-kit-bindings-2.0.2/"
+ "/home/los/.emacs.d/init.d/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "s4.hs"
+ "l.hs"
+ "print_lvl.hs"
+ "x"
+ "s1.hs"
+ "s4"
+ "s3.hs"
+ "Site.hs"
+ "Encounters.hs"
+ "levels.hamlet"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/los/Haskell-Playground/yesod/" (21051 30932) "s4.o" "lvl" "./" "s4" "s1.hi" "../" "s1.hs" "x" "l.hs" "lvl.o" "lvl.hi" "print_lvl.hs" "linux_signing_key.pub" "s3.hs" "s4.hi" "l.hi" "s4.hs" "s1.o" "l.o" "client_session_key.aes" "s1" "Enc.hs" "templates/" "lvl.hs" "src/" "s2.hs")
+
+ ("/home/los/Haskell-Playground/yesod/src/" (20902 34023) "./" "../" "QueryLite.hs" "CreatureTables.hs" "#Site.hs#" ".#Site.hs" "dbname=test" "BuildTables.hs" "Query.hs" "Application.hs" "Encounters.hs" "Site.hs" "Main.hs" "BuildTables")
+
+ ("/home/los/Haskell-Playground/encounters/src/" (20902 32927) "Query.o" "Site.hs~" "Encounters.o" "Query.hi" "Application.hi" "./" "../" "Encounters" "QueryLite.hs" "CreatureTables.hs" "CreatureTables.hi" "Application.o" "Encounters.hi" "Snap/" "BuildTables.hi" "dbname=test" "BuildTables.hs" "Query.hs" "BuildTables.o" "Application.hs" "CreatureTables.o" "Encounters.hs" "QueryLite.hi" "Site.hs" "Main.hs" "QueryLite.o" "Application.hs~" "BuildTables")
+
+ ("/home/los/Haskell-Playground/encounters/" (20727 8355) ".gitignore" "./" "log/" "../" "test.db" "dbname=test" "README" "encounters.cabal" "resources/" "dist/" "src/")
+
+ ("/home/los/Haskell-Playground/" (20711 21742) "snap-sql-example/" ".gitignore" "Factor_tests.hs" "cheese0.8/" "example-snap-0.8/" "./" "../" "yesod/" "chs/" "cheese2/" "encounters/" "cheese/" ".git/" "x3/" "Factor.hs" "tictactoe_api.hs" "README" "resources/")
+
+ ("/home/los/Haskell-Playground/yesod/templates/" (20902 32823) "creatures.tpl" "region_encounter.tpl" "./" "../" "creatures_test.tpl" "creature_row.tpl" "levels.hamlet" "nav.tpl" "levels.tpl" "templates.tpl" "index.tpl" "region_and_encounter_page.tpl" "echo.tpl" "regions.tpl")
+
+ ("/home/los/Haskell-Playground/encounters/resources/templates/" (20265 53572) "creatures.tpl" "region_encounter.tpl" "./" "../" "creatures_test.tpl" "creature_row.tpl" "nav.tpl" "levels.tpl" "templates.tpl" "index.tpl" "region_and_encounter_page.tpl" "echo.tpl" "regions.tpl")
+
+ ("/run/media/los/F8B0B1F1B0B1B70A/Documents and Settings/short.l/Desktop/OA_Core_262314/Health_Services_262090/Source/HMCORE/" (20761 40299) "WhmsHandleCoreMessage.h" "WhmsHandleCoreMessage.cpp" "HMCorePipeGeneral.h" ".#WhmsHandleCoreMessage.cpp" "#WhmsHandleCoreMessage.cpp#" "../" "./")
+
+ ("/run/media/los/F8B0B1F1B0B1B70A/Documents and Settings/short.l/Desktop/OA_Core_262314/" (20531 59163) "Windows_OS_Drivers_262084/" "Resource_Monitoring_Service/" "Print_Service_262089/" "Package/" "Logging_Service/" "KM_Service_262088/" "IO_Service_262087/" "Health_Services_262090/" "DOC/" "Core_Services_262086/" "Config_Service_262085/" "501/" "500/" "262314-0135-SDK.doc" "262314-0131-SDK.doc" "262314-0126-SCI.doc" "262314-0125-SCI.doc" "262314-0123-SCI.doc" "262314-0101-SCI.doc" "262314-0100A-SCI.doc" "262314-0100-SDK.doc" "262314-0081-SDK.doc" "262314-0080-SDK.doc" "262314-0070A-SDK.doc" "262314-0062A-SCI.doc" "262314-0062-SDK.doc" "262314-0060-SDK.doc" "262314-0010-SCI.doc" "262314-0003-SCI.doc" "build_oacore.bat" "262314-0131-SCI.doc" "../" "./")
+
+ ("/run/media/los/F8B0B1F1B0B1B70A/Documents and Settings/short.l/Desktop/OA_Core_262314/Health_Services_262090/" (20531 59136) "TEST/" "Source/" "DOC/" "262090-0126-SCI.doc" "262090-0123-SCI.doc" "262090-0101-SCI.doc" "262090-0081A-SCI.doc" "262090-0081-SCI.doc" "262090-0080A-SCI.doc" "262090-0040-SCI.doc" "262083-0080-SCI.doc" "001/" "000/" "../" "./")
+
+ ("/run/media/los/F8B0B1F1B0B1B70A/Documents and Settings/short.l/Desktop/OA_Core_262314/Health_Services_262090/Source/WHMain/" (20761 39645) "WhmsQueue.h" "WhmsGeneral.h" "WhmsGeneral.cpp" "WHMS.rc" "WHMS.APS" "TSCTimer.h" "TSCTimer.cpp" "stdafx.h" "stdafx.cpp" "resource.h" "Release/" "ModulesClasses.h" "ModulesClasses.cpp" "main.h" "main.cpp" "LogMessage.h" "LogMessage.cpp" "LogDefinitions.h" "INIFilesManager.h" "INIFilesManager.cpp" "HMMain.vcproj" "HMMain.suo" "HMMain.sln" "GeneralQueue.h" "GeneralQueue.cpp" "ExceptionHandlerMsg.h" "ExceptionHandler.h" "ExceptionHandler.cpp" "DbgHelp.h" "ConfigFile.h" "ConfigFile.cpp" "AcaSockets.h" "AcaSockets.cpp" ".#ModulesClasses.cpp" ".#main.cpp" ".#GeneralQueue.cpp" "#ModulesClasses.cpp#" "#main.cpp#" "#GeneralQueue.cpp#" "../" "./")
+
+ ("/run/media/los/F8B0B1F1B0B1B70A/Documents and Settings/short.l/Desktop/OA_Core_262314/Health_Services_262090/Source/HMOHMF/" (20531 58692) "stdafx.h" "stdafx.cpp" "ReadMe.txt" "Queue.h" "OHMFMsgBuilderAndParser.h" "OHMFMsgBuilderAndParser.cpp" "ohmfmsg.h" "OHMFModule.h" "OHMFModule.cpp" "HMOHMFPrivate.h" "HMOHMFMsg.h" "HMOHMF.vcproj" "HMOHMF.suo" "HMOHMF.h" "HMOHMF.cpp" "AcaSockets.h" "AcaSockets.cpp" "../" "./")
+
+ ("/run/media/los/F8B0B1F1B0B1B70A/Documents and Settings/short.l/Desktop/OA_Core_262314/Health_Services_262090/Source/" (20531 59132) "WHMS.suo" "WHMS.sln" "WHMain/" "release/" "HmsCoreApi/" "HmsConfig.ini" "HMOHMF/" "HMLHMS/" "HMFTSS/" "HMCORE/" "HMCMCF/" "FtssIni_R.ini" "FtssIni_L.ini" "CMCF_MSG.txt" "build_healthservice.bat" "bin/" "../" "./")
+
+ ("/home/los/python/google-python-exercises/babynames/" (19266 35704) "baby2002.html" "babynames.py" "baby2004.html" "baby1996.html" "baby2000.html" "./" "../" "baby2006.html" "baby2008.html" "baby1998.html" "baby1992.html" "baby1990.html" "baby1994.html" "solution/")
+
+ ("/home/los/python/google-python-exercises/basic/" (20596 45410) "string2.py" "string1.py" "./" "../" "small.txt" "mimic.py" "list1.py" "alice.txt" "wordcount.py" "list2.py" "solution/")
+
+ ("/home/los/python/google-python-exercises/" (20596 36140) "basic/" "logpuzzle/" "hello.py" "./" "../" "babynames/" "LICENSE.txt" "copyspecial/" "NOTICE.txt")
+
+ ("/home/los/haskell/" (20458 14687) "prob.hi" "tutorial.txt" "lshort-Haskell-Playground-5d98085/" "./" "../" "prob" "randomized2.hs" "prob.o" "tutorial.hs" "eamsden-Animas-2404d1d/" "prob.hs" "eamsden-Animas-2404d1d.zip")
+
+ ("/home/los/" (20525 13224) ".cache/" "Pictures/" "mm_Source/" ".dbus/" ".mozilla/" "Haskell-Playground/" ".recentf" ".gtk-bookmarks" "mm_Source.tgz" "JVM-Bridge/" ".Xkbmap" "Documents/" ".ido.last" ".gnome2/" ".xsession-errors" ".bash_history" ".thumbnails/" "LIDO/" "./" ".gitconfig" ".bash_logout" "../" "Public/" ".wireshark/" ".emacs" "ghc-mod-elisp/" "Videos/" ".cabal/" ".config/" ".fontconfig/" "bindings-libzip-0.1.tar.gz" "haskell/" ".gnome2_private/" "LibZip-0.2.0/" "encounters/" ".SourceGear DiffMerge" ".shotwell/" ".qt/" ".libreoffice/" ".mission-control/" ".ICEauthority" ".gitk" "old_account/" "Templates/" ".adobe/" ".gvfs/" "LSAPs/" ".local/" "crc" ".pulse/" ".gstreamer-0.10/" ".psql_history" ".pki/" "bindings-libzip-0.1/" "Music/" ".ghc/" "Desktop/" "launchy/" ".gconf/" "logs/" ".bash_profile" "tmp/" "foo.cpp" ".esd_auth" ".gconfd/" "Downloads/" ".imsettings.log" ".gnupg/" "Receipt-M-Kocher-Minor-James.pdf" "em.tgz" "lido/" "TestECSLApp.exe" ".ssh/" ".emacs.d/" ".macromedia/" ".bashrc" "libflashplayer.so" ".sqlite_history" "Receipt-M-Kocher-Swedish.pdf" ".pulse-cookie")
+
+ ("/home/los/logs/" (20525 12817) "OPTEWCB_SMF.log" "ACZ8680_cdle.cfg" "306/" "ACZ8680_lsap.db" "BFBADCP_ECSL.OPTEWCB.java.exe.Log.txt" "OPTEWCB_NetworkController.log" "OPTEDCP_log.txt" "OPTEWCB_SMF.evt" "BFBADCP_ECSL.OPTEWCB.OPT_SAR.exe.Log.txt" "ACZ8500_fault.log.archive" "BFBWPMA_WinPrintMgr_Log.txt.1" "OPTEWCB_SecEvent.evt" "BFBADCP_IADCLog.txt" "ACZ8680_cdle.log" "OPTEWCB_cmfServerEvent.log.1" "BFBADCP_IADCLog.txt.bak" "JEPCHTP_charts.log" "./" "sn127_jan22/" "BFBADCP_ADCCfgValidator_Log.txt" "../" "BFBADCP_ECSL.BFBADCP.AppMgr.exe.Log.txt" "WB146 ACZ EU_R_20120327022016_AUTO SHUTDOWN.zip" "#ACZ8500_fault.log#" "sn0007/" "OPTEWCB_CM.log" "OPTEWCB_cmfServerOpMEvent.log" "BIJAN_ACZ EU_L_20111115162641/" "BFBADCP_ECSL.OPTEWCB.OPT_SMF.exe.Log.txt" "sn127_jan22.zip" "OPTEWCB_FTS.log" "OPTEWCB_cmfServerACARSEvent.log" "BFBADCP_ECSL.BFBADCP.ConfigValidator.exe.Log.txt" "BFBADCP_ECSL.DataCacherApp.log.txt" "ACZ8500_Bit.log" "BFBPRFA_OPT_errorLog_txt" "logs116/" "ACZ8500_Shop.log" "OPTEWCB_VPNStatistics.log" "BFBADCP_ECSL.BFBPRFA.BlankApp.exe.Log.txt" "20120816094718/" "OPTEWCB_cmfServerACARSEvent.log.1" "OPTEWCB_SysEvent.evt" "BFBADCP_ECSL.EFBDataCache.ini" "BFBADCP_ECSL.OPTEDCP.eDocsBrowser.exe.Log.txt" "BFBADCP_ECSL.JEPDMEP.java.exe.Log.txt" "OPTEWCB_CMClientCMF.log" "ACZ8500_fault.log" "BFBADCP_ECSL.OPTEWCB.OPT_CM.exe.Log.txt" "OPTEWCB_FTSClientCMF.log" "OPTEWCB_NetworkController.log.1" "BFBADCP_ECSL.BFBADCP.DataCacherApp.exe.Log.txt" "BFBPRFA_OPT_databaseLog_txt" "JEPCHTP_charts.log_arc2" "ACZ8680_setup.config" "ACZ8500_Shop.log.archive" "OPTEWCB_SAR.log" "JEPCHTP_charts.log_arc1" "BFBWPMA_WinPrintMgr_Log.txt" "right/" "OPTEWCB_cdsServerEvent.log" "OPTEWCB_AppEvent.evt" "ACZ8500_Bit.log.archive" "OPTEWCB_cmfServerEvent.log" "OPTEWCB_AircraftInfoSnmpService-err.log" "left/" "BFBADCP_ADCCommonLogFileRegistration_Log.txt" "BFBPRFA_OPT_errorLog_bak" "kenya_acz_logs.tgz" "BFBADCP_ECSL.BFBWPMA.EFBWinPrintMgrApp.exe.Log.txt" "BFBADCP_PilotUtilitiesApp_Log.txt")
+
+ ("/home/los/logs/20120816094718/" (20525 12818) "./" "../" "2009-03-31_BP4_OA2_ACZ EU_R_20120816104153/" "2009-03-31_BP4_OA2_ACZ EU_L_20120816104152/")
+
+ ("/home/los/logs/20120816094718/2009-03-31_BP4_OA2_ACZ EU_R_20120816104153/" (20525 13224) "OPTEWCB_SMF.log" "USIATLM_framework.log" "BFBADCP_ECSL.BFBADCP.DataMaint.Log.txt" "BFBADCP_ECSL.BFBADCP.DataCacherApp.Log.txt" "BFBADCP_PLC.ELServer_Log.txt" "BFBADCP_ECSL.USIATLM.USIRunner.Log.txt" "OPTEFFB_EFF_Air_Event.log" "OPTEWCB_NetworkController.log" "OPTEDCP_log.txt" "BFBADCP_ECSL.JEPESAP.EAA.Log.txt" "BFBESRV_EFBManager_Log.txt" "ACZ7YWU_Shop.log" "#OPTEWCB_FTSClientCMF.log#" "JEPDMEP_stage.db" "OPTEWCB_SecEvent.evt" "USIATLM_CMClientCMF.log" "ROZV01P_FDEVSSEventLog.txt" "BFBADCP_IADCLog.txt" "BFBADCP_ECSL.OPTEDCP.eDocsBrowser.Log.txt" "JEPCHTP_charts.log" "./" "BFBESRV_EFBTimeServer_Log.txt" "BFBADCP_ECSL.JEPESAP.EAA.Log.txt.bak" "BFBADCP_ADCCfgValidator_Log.txt" "ACZ8049_Loader.log" "USIATLP_error.log" "../" "OPTEWCB_CM.log" "JEPDMEP_dfim.log.1" "ACZ8049_CrossloadServer.log" "OPTEWCB_cmfServerOpMEvent.log" "USIATLM_error.log" "BFBADCP_ECSL.OPTEWCB.NetworkController.Log.txt" "ACZ7YWU_fault.log" "BFBADCP_ECSL.OPTEWCB.OPT_CM.Log.txt" "BFBADCP_ECSL.OPTEFFB.startEFF.Log.txt.bak" "OPTEWCB_FTS.log" "OPTEWCB_cmfServerACARSEvent.log" "USIATLP_framework.log" "BFBADCP_ECSL.USIATLP.USIRunner.Log.txt" "BFBADCP_PLC.PilotLoading_Log.txt" "BFBADCP_ECSL.DataCacherApp.log.txt" "ACZ8049_cdle.log" "JEPCHTP_printprocess.log" "Resources.aca" "BFBPRFA_OPT_errorLog_txt" "BFBADCP_ECSL.BFBESRV.EFBTimeServer.Log.txt" "ACZ8049_setup.config" "BFBADCP_Repository.db" "OPTEWCB_VPNStatistics.log" "BFBADCP_ECSL.OPTEWCB.OPT_SAR.Log.txt" "BFBESRV_EFBAgent_Log.txt" "OPTEWCB_SysEvent.evt" "BFBADCP_ECSL.EFBDataCache.ini" "BFBADCP_ECSL.OPTEWCB.eCMFServer.Log.txt" "OPTEWCB_CMClientCMF.log" "ACZ7YWU_Shop.log.archive" "BFBADCP_LsapInfo.txt" "BFBADCP_ECSL.BFBPRFA.blankApp.Log.txt" "OPTEWCB_FTSClientCMF.log" "BFBADCP_ECSL.OPTEFFB.startEFF.Log.txt" "BFBADCP_ECSL.BFBADCP.AppMgr.Log.txt" "ACZ7YWU_Bit.log" "BFBADCP_ECSL.JEPAMAP.AMM.Log.txt.bak" "BFBADCP_ECSL.JEPAMAP.AMM.Log.txt" "BFBPRFA_OPT_databaseLog_txt" "JEPDMEP_dfim.log" "OPTEWCB_SAR.log" "BFBADCP_LsapError.txt" "BFBADCP_ECSL.JEPCHTP.TermCharts.Log.txt" "BFBADCP_ECSL.OPTEWCB.OPT_SMF.Log.txt" "BFBADCP_PLC.DataMaint_Log.txt" "BFBADCP_ECSL.BFBADCP.ELService.Log.txt" "ACZ7YWU_Bit.log.archive" "OPTEWCB_cdsServerEvent.log" "BFBADCP_ECSL.JEPDMEP.dfim.Log.txt" "OPTEWCB_AppEvent.evt" "OPTEWCB_cmfServerEvent.log" "OPTEWCB_AircraftInfoSnmpService-err.log" "JEPAMAP_AMM.log" "ACZ8049_CrossloadClient.log" "ACZ8049_cdle.log.previous" "OPTEFFB_EFF_Air_CDSClient.log" "BFBADCP_ECSL.BFBADCP.PilotUtilitiesApp.Log.txt" "BFBADCP_ADCCommonLogFileRegistration_Log.txt" "JEPDMEP_AdelStage.db" "OPTEFFB_EFF_Air_CMFClient.log" "BFBADCP_PilotUtilitiesApp_Log.txt" "JEPESAP_EAA.log" "ACZ8049_lsap.db" "BFBADCP_ECSL.BFBADCP.PilotLoadingApp.Log.txt" "ACZ7YWU_fault.log.archive" "ROZV01P_FDEVSSFaultLog.txt" "BFBADCP_ECSL.BFBADCP.ConfigValidator.Log.txt")
+
+ ("/home/los/.emacs.d/" (20517 18718) ".smex-items" "backups/" "./" "session.10762b1f15a871d507131705446498683600000015040033" "emacs-customizations.el" "../" "init.el~" "session.101f3cfb0160516bed132771144215426700000015730033" "places" "session.101649c0249c7e45c313276908047930800000015710033" "init.d/" "keys.el" "session.10137b0d596017b121131956680524773500000015670033" "eshell/" "#emacs-customizations.el#" "session.1044bccbc868cd6d4f13240544271703400000015830034" "backup/" "elpa/" "init.el" "auto-save-list/")
+
+ ("/home/los/JVM-Bridge/javavm-interface/Haskell/test/" (20413 16931) "TestException.out" "./" "Makefile" "../" "TestException.hi" "#HelloWorld.hs#" "TestException.ref" "HelloWorld.ref" "TestException.hs" "HelloWorld.hs" "TestException" "TestException.o")
+
+ ("/home/los/JVM-Bridge/javavm-interface/Haskell/Foreign/JavaVM/Raw/" (20367 14301) "ValueList.hs" "./" "../" "Env.hs" "VM.hs" "Types.hs" "Invocation.hs" "Callback.hs")
+
+ ("/home/los/JVM-Bridge/javavm-interface/Haskell/Foreign/JavaVM/VM/Method/" (20367 14301) "./" "../" "Call.hs")
+
+ ("/home/los/JVM-Bridge/javavm-interface/Haskell/Foreign/JavaVM/VM/" (20367 14301) "ValueList.hs" "Class.hs" "Method.hs" "./" "../" "Witness.hs" "Callback/" "String.hs" "Types.hs" "Throwable.hs" "Invocation.hs" "NewObject.hs" "Method/" "Object.hs" "Field/" "Callback.hs" "Thread.hs" "Field.hs" "Ref.hs" "Array.hs" "StringPtr.hs")
+
+ ("/home/los/JVM-Bridge/javavm-interface/Haskell/Foreign/JavaVM/" (20406 49693) "Raw/" "Raw.hs" "Configure.hs" "./" "../" "Configure.hs.m4" "VM.hs" "VM/")
+
+ ("/home/los/JVM-Bridge/javavm-interface/Haskell/Foreign/" (20367 14301) "./" "../" "JavaVM/")
+
+ ("/home/los/JVM-Bridge/javavm-typed/Foreign/JavaVM/Typed/" (20367 14301) "ListArray.hs" "Class.hs" "Method.hs" "./" "Loadable.hs" "../" "Returnable.hs" "Primitive.hs" "ArgumentList.hs" "String.hs" "Throwable.hs" "Invocation.hs" "NewObject.hs" "Object.hs" "Tuple.hs" "Reference.hs" "Callback.hs" "Thread.hs" "Field.hs" "Value.hs" "Array.hs")
+
+ ("/home/los/JVM-Bridge/javavm-typed/Foreign/JavaVM/" (20367 14301) "Invocation.hs.m4" "./" "../" "Typed.hs" "Lib/" "Callback.hs" "Thread.hs" "Typed/")
+
+ ("/home/los/JVM-Bridge/javavm-typed/Foreign/" (20367 14301) "./" "../" "JavaVM/" "JavaVM.hs")
+
+ ("/home/los/JVM-Bridge/javavm-typed/" (20406 50906) "Header.m4" "LibPackages.m4" "JVM.m4" "./" "Makefile" "../" "INSTALL" "ShowClasses.cabal" "COPYING" "MakeHeaderModule.m4" "TestFrame.hs" "TestJVM.hs" "ShowClasses.hs" "Misc.allowedclasses" "MakeJVMModule.m4" "AUTHORS" "MakeClassModule.m4" "OMG.allowedclasses" "Setup.hs" "LibPackage.m4" "NEWS" "ChangeLog" "TestCallback.hs" "Java.allowedclasses" "TestStuff.hs" "Class.m4" "Package.m4" "LICENSE" "README" "test/" "MakeClassModule" "Foreign/" "Sun.allowedclasses" "dist/" "JavaX.allowedclasses" "cabal.m4")
+
+ ("/home/los/JVM-Bridge/javavm/Platform/JavaVM/Types/" (20406 51603) "./" "../" "Witness.hs" "Types.hs" "TypeSig.hs" "Text.hs")
+
+ ("/home/los/JVM-Bridge/javavm/Platform/JavaVM/" (20367 14301) "Compile/" "./" "Compile.hs" "../" "Types.hs" "Types/")
+
+ ("/home/los/JVM-Bridge/javavm/Platform/" (20367 14301) "./" "../" "JavaVM/" "JavaVM.hs")
+
+ ("/home/los/JVM-Bridge/javavm/" (20367 15437) "Platform/" "./" "Makefile" "../" "Data/" "Control/" "javavm.cabal" "Setup.hs" "LICENSE" "test/" "dist/")
+
+ ("/home/los/JVM-Bridge/" (20367 14301) ".darcs-boring" "./" "Makefile" "javavm-typed/" "../" "javavm-interface/" "javavm/" "_darcs/")
+
+ ("/home/los/JVM-Bridge/javavm-interface/" (20367 14301) "Native/" "Building" "./" "../" "Building.win32" "Haskell/")
+
+ ("/home/los/JVM-Bridge/javavm-interface/Haskell/" (20406 50206) "javavm-interface.cabal.m4" "./" "Makefile" "../" "cbits/" "Setup.hs" "javavm-interface.cabal" "LICENSE" "include/" "test/" "Foreign/" "dist/")
+
+ ("/home/los/JVM-Bridge/javavm-interface/Native/" (20406 49368) "OpenJDK.6.jvm" "Sun.server.linux.jvmdirs" "Configure.h" "missing" "Makefile.am" "ValueListPrivate.hpp" "ValueList.h" "TestJVMBridge.cpp" "#configure#" "ValueList.cpp" "GCJ.jvm" "Kaffe.jvm" "Darwin.jvm" "IBM.classic.jvm" "jvm.list" "Sun.server.win32.jvm" "1_3.Blackdown.classic.native_threads.linux.jvm" "./" "Debug.hpp" "Sun.client.win32.jvmdirs" "Makefile" "Sun.client.linux.jvmdirs" "ExecuteFunction.cpp" "../" "1_3.Blackdown.classic.green_threads.linux.jvm" "INSTALL" "1_1.IBM.native_threads.linux.jvmdirs" "OpenJDK.6.jvmdirs" "current.jvm" "ValueList.lo" "libtool" "1_1.Blackdown.green_threads.linux.jvm" "#Makefile#" "COPYING" "win32/" "TestFile.cpp" "File.hpp" "Kaffe.jvmdirs" "SableVM.jvm" "File.cpp" "configure.in" "Sun.server.win32.jvmdirs" "jinfo2jvm" "File.o" "Sun.server.linux.jvm" "stamp-h1" "autom4te.cache/" "ShowFrame.java" "autoheader.h.in" "ExecuteFunction.java" "ExecuteFunctionControl.h" "OpenJDK.6b.jvm" "File.lo" "config.sub" "AUTHORS" "depcomp" "1_1.Blackdown.green_threads.linux.jvmdirs" "JVMBridge.o" "ExecuteFunction.java-pp" ".#Configure.h" "FreeBSD.jvm" "Darwin.jvmdirs" ".libs/" "config.status" "TestJVM" "aclocal.m4" "Sun.6.jvm" "config.guess" "ResourceLoader.java" "NEWS" "ChangeLog" "ltmain.sh" "FindClasses.cpp" "JVMBridge.lo" "configure" "IBM.classic.debug.jvmdirs" "Sun.client.linux.jvm" "TestApp.java-pp" "JVMInvocation.o" "libJVMInvocation.la" "Sun.client.win32.jvm" "Makefile.in" "Sun.classic.green_threads.linux.jvm" "JVMInvocation.lo" ".#Makefile" "libJVMBridge.la" "README" "jre-1.6.0-openjdk.jvm" "IBM.classic.debug.jvm" "install-sh" "IBM.classic.jvmdirs" "Sun.6.jvmdirs" ".deps/" "Sun.classic.green_threads.linux.jvmdirs" "ValueList.o" "ExecuteFunction.lo" "config.log" "JVMBridge.cpp" "JVMInvocation.h" "autoheader.h" "Sun.classic.native_threads.linux.jvm" "JVMInvocation.cpp" "ExecuteFunction.o" "JVMBridge.h" "ResourceRepository.java" "Sun.classic.native_threads.linux.jvmdirs" "1_1.IBM.native_threads.linux.jvm")
+
+ ("/media/F8B0B1F1B0B1B70A/Users/short.l/Desktop/OA_Core_262314/IO_Service_262087/Source/IOServApi/" (20199 63823) "Utility.h" "Utility.cpp" "StdAfx.h" "StdAfx.cpp" "resource.h" "Release/" "mmioutility.cpp" "mmiodata.h" "mmioapi.h" "mmioapi.cpp" "LogMessage.h" "LogMessage.cpp" "Log.h" "iostruct.h" "ioservapi.vcproj" "ioservapi.suo" "ioservapi.sln" "IoServApi.rc" "ioservapi.dsw" "ioservapi.dsp" "ioservapi.def" "ioservapi.cpp" "iopipecom.h" "iopipecom.cpp" "HmsReporter.h" "HmsReporter.cpp" "Ethernetutility.h" "EthernetUtility.cpp" "EthernetApi.h" "EthernetApi.cpp" "EFBLogging.h" "EFBLogging.cpp" "Crc.h" "ConfigFile.h" "ConfigFile.cpp" "Api.h" "api.cpp" "../" "./")
+
+ ("/home/los/Downloads/haskell-mode-2.8.0/" (20081 9759) "inf-haskell.el" "ghc-core.el" "haskell-site-file.el" "haskell-simple-indent.el" "haskell-cabal.el" "./" "../" "haskell-hugs.el" "haskell-ghci.el" "haskell-mode.el" "NEWS" "ChangeLog" "haskell-indentation.el" "indent.hs" "haskell-font-lock.el" "haskell-c.el" "README" "haskell-doc.el" "fontlock.hs" "haskell-decl-scan.el" "haskell-indent.el")
+
+ ("/home/los/Downloads/" (20376 48871) "CentOS-6.2-i386-LiveDVD.iso" "growth.cpp" "BP3.7_IP3_Logs.zip" "slax/" "BOOK.pdf" "032911_EU0243Logs/" "jip/" "emacs/" "OPT3_5 Test Cases.pdf" "los_account.tgz" "DebugADM/" "Linux IJ Scanner Driver MX410.tar" "ACZ528241E13B.gz" "cedet-1.0/" "dijkstra" "alice_in_wonderland.txt" "Play_Unsafe_White.pdf" "future/" "REI First Aid Kit Recpt 001.jpg" "Nexis_Packager/" "Vuze_Installer.tar.bz2" "CentOS-6.2-i386-LiveCD.iso" "PrelimPlanA.ppt" "usr/" "adc.dat" "Montsegur1244.pdf" "B777 perf investigation on BP3.xls" "gum-4.06.2.tgz" "Resume-L-Short.pdf" "lost+found/" "Russia_Honor_USA911.pps" "2012OpenEnrollmentLetter.pdf" "Makefile" "packager_signer.tar.bz2" "OpenGLviewer.exe" "heap.cxx" "dijkstra.cxx" "prin" "heap" "jdk-6u23-linux-i586.bin" "EFB Faults.xls" "bindings-libzip-0.1.tar.gz" "unit++/" "I32 contents.xls" "t2/" "ecb-2.40/" "randomized2.hs" "Installation Instructions for BIOS.pdf" "prout" "Practical Foundations Programming Languages.pdf" "LibZip-0.2.0/" "Rejection Tag Example.pdf" "ACKS_1E_20120131_431.pdf" "Final_Release_Statement_eRM 4.0.3.7.1-BOEPERF.PDF" "slax-6.1.2.tar" "DeprecatingObserversTR2010.pdf" "Kellris.OS-SpellReference.pdf" "duout" "README.txt" "SYS Reports/" "ACZ528241E13B.LUH" "Group change 11_09_11.ppt" "quazip.dll" "drivers/" "TLG80103 - Castles & Crusades - Player's Handbook (3rd printing)(OEF).pdf" "Survey.pdf" "QtGui4.dll" "AppSumoMixergy_ActionVideo3_GoogleAnalytics.mp3" "Nexis_Packager.exe" "bindings-libzip-0.1/" "defunkt-hub-011cb1a/" "image2011-09-22-103943.pdf" "ONS_logs/" "lshort-Haskell-Playground-5d98085.zip" "ryanairdynamictext3_2010.php" "ducp" "cloudera-cdh3.repo" "787 EFB Summary Status Rev LB (8-18-2011).pptx" "Linux IJ Printer Driver MX410.tar" "SYS Reports.zip" "simonmar-monad-par-24aba0e/" "onlisp.pdf" "boot/" "bios/" "EFB-799L-LOGS.tar" "AcaLogConfig.ini" "t3/" "Acrobat Document.pdf" "tmp/" "XXX5B-ADCC-LENA.zip" "Logs/" "core_nxf" "pdf/" "EuDuConfigData.ini" "Suggest.java" "unit++-3.0.0.tgz" "Nexis_packager.zip" "KMBT25020120319081115.pdf" "Fw: No First Officer Video on EFB" "ip_address_stuff.pdf" "oxford02.pdf" "haskell-mode-2.8.0/" "._ACKS_1E_20120131_431.pdf" "jip-1.1.1.zip" "10A_dataload_ failed 021412.zip" "gian-urtutorial-094c4ad/" "powerup.dat" "pdfs/" "parallel-3.1.0.1.tar.gz" "XXX5B-ADCC-LENA/" "Final_Release_Statement_eRM 4.0.3.7.1-BOEPERF_BP3_perf investigation.PDF" "DebugADM.zip" "vuze/" "XXX5B-ADCC-LENA.xip" "defunkt-hub-v1.6.1-33-g011cb1a.tar" "QtCore4.dll" "words.txt" "randomized.hs" "libflashplayer.so" "LinuxDB" "ACKS_1E.zip" "searchresults.xls" "chrisdone-shime-9eca3bc/" "dump" "lsap.db" "23050BK - ROM Quote for Graphics Driver to Support Hardware Accelerated OpenGL.pdf" "../" "./")
+
+ ("/home/los/Haskell-Playground/example-snap-0.8/snaplets/heist/templates/" (20365 58231) "./" "../" "nav.tpl" "cheese_template.tpl" "index.tpl" "echo.tpl")
+
+ ("/home/los/Haskell-Playground/example-snap-0.8/snaplets/heist/" (20365 58008) "./" "../" "templates/")
+
+ ("/home/los/Haskell-Playground/example-snap-0.8/snaplets/" (20365 58008) "./" "../" "heist/")
+
+ ("/home/los/Haskell-Playground/example-snap-0.8/" (20365 62517) "src.orig/" "./" "log/" "../" "snaplets/" "test_db" "src2/" ".ghci" "example-snap-0.8.cabal" "dist/" "static/" "src/")
+
+ ("/home/los/Haskell-Playground/example-snap-0.8/src/" (20365 61922) "./" "../" "Application.hs" "Site.hs" "Main.hs")
+
+ ("/home/los/encounters/src/" (20365 58734) "./" "../" "QueryLite.hs" "CreatureTables.hs" "BuildTables.hs" "Query.hs" "Application.hs" "Encounters.hs" "Site.hs" "Main.hs")
+
+ ("/home/los/Haskell-Playground/example-snap-0.8/src.orig/" (20365 59442) "./" "../" "Application.hs" "Site.hs" "Main.hs")
+
+ ("/home/los/Haskell-Playground/example-snap-0.8/src2/" (20365 58198) "Site.hs~" "./" "../" "Snap/" "Application.hs" "Site.hs" "Main.hs")
+
+ ("/home/los/Haskell-Playground/cheese2/" (20365 57276) "resources.orig/" "src.orig/" "./" "log/" "../" "cheese.cabal" "resources/" "dist/" "src/")
+
+ ("/home/los/encounters/" (20350 7039) "./" "log/" "../" "snaplets/" "encounter_db" ".git/" ".ghci" "README" "encounters.cabal" "dist/" "static/" "src/")
+
+ ("/home/los/Haskell-Playground/encounters2/src/" (20350 1323) "./" "../" "QueryLite.hs" "CreatureTables.hs" ".#Site.hs" ".#QueryLite.hs" "BuildTables.hs" "Query.hs" "Application.hs" "Encounters.hs" "Site.hs" "Main.hs")
+
+ ("/home/los/Haskell-Playground/x3/src/" (20348 43250) "./" "../" ".#Application.hs" "Application.hs" "Site.hs" "Main.hs")
+
+ ("/home/los/Haskell-Playground/x3/snaplets/" (20340 59010) "./" "../" "heist/")
+
+ ("/home/los/Haskell-Playground/x3/" (20340 59010) "x3.cabal" "./" "log/" "../" "snaplets/" ".ghci" "static/" "src/")
+
+ ("/home/los/Haskell-Playground/encounters2/" (20340 57342) "./" "log/" "../" "snaplets/" "encounters2.cabal" ".ghci" "resources/" "dist/" "static/" "src/")
+
+ ("/home/los/logs/logs116/" (15409 28178) "coreservice.log" "dtservd.log" "xload-server.log" "arincprd.log" "efb_init.log" "./" "fault.log" "xload-client.log" "../" "shop.log.archive" "linuxfail1.txt" "bit.log.archive" "fault.log.archive" "cfgserv.log" "current_faults.log" "shop.log" "dmesg_up.log" "bit.log" "linuxfail2.txt" "ioservd.log" "lsap.db")
+
+ ("/home/los/logs/right/" (20294 34403) "OPTEWCB_SMF.log" "ACZ8680_cdle.cfg" "ACZ8680_lsap.db" "BFBADCP_ECSL.OPTEWCB.java.exe.Log.txt" "BFBEDCP_AdcLog.txt" "BFBADCP_ECSL.BFBADCP.ConfigValidator.exe.Log.txt.bak" "OPTEWCB_SMF.evt" "BFBADCP_ECSL.BFBEDCP.eDocsBrowser.exe.Log.txt.bak" "ACZ8500_fault.log.archive" "BFBADCP_ECSL.OPTEWCB.java.exe.Log.txt.bak" "OPTEWCB_cmfServerEvent.log.2" "OPTEWCB_SecEvent.evt" "BFBADCP_IADCLog.txt" "ACZ8680_cdle.log" "OPTEWCB_cmfServerEvent.log.1" "BFBADCP_IADCLog.txt.bak" "BFBADCP_ECSL.OPTEWCB.OPT_SMF.exe.Log.txt.bak" "JEPCHTP_charts.log" "./" "BFBADCP_ADCCfgValidator_Log.txt" "../" "BFBADCP_ECSL.BFBADCP.AppMgr.exe.Log.txt" "OPTEWCB_cmfServerOpMEvent.log" "BFBADCP_ECSL.OPTEWCB.OPT_SMF.exe.Log.txt" "OPTEWCB_cmfServerACARSEvent.log" "5Y-KYZ-ACZ RIGHT EU.zip" "BFBADCP_ECSL.BFBADCP.ConfigValidator.exe.Log.txt" "BFBADCP_ECSL.DataCacherApp.log.txt" "ACZ8500_Bit.log" "BFBEDCP_UnhandledExceptionLog.txt" "ACZ8500_Shop.log" "OPTEWCB_VPNStatistics.log" "BFBADCP_ECSL.BFBPRFA.BlankApp.exe.Log.txt" "OPTEWCB_SysEvent.evt" "BFBADCP_ECSL.EFBDataCache.ini" "ACZ8500_fault.log" "BFBADCP_ECSL.BFBADCP.DataCacherApp.exe.Log.txt" "ACZ8680_setup.config" "ACZ8500_Shop.log.archive" "BFBEDCP_Log.txt" "BFBADCP_ECSL.BFBEDCP.eDocsBrowser.exe.Log.txt" "ACZ9363_Internal_Configuration" "OPTEWCB_cdsServerEvent.log" "OPTEWCB_AppEvent.evt" "ACZ8500_Bit.log.archive" "OPTEWCB_cmfServerEvent.log" "OPTEWCB_AircraftInfoSnmpService-err.log" "BFBADCP_ECSL.BFBPRFA.BlankApp.exe.Log.txt.bak" "BFBADCP_ADCCommonLogFileRegistration_Log.txt")
+
+ ("/home/los/Downloads/tmp/" (20267 4651) "BoyerMoore.java~" "alice_in_wonderland.txt" "flashplayer_10_plugin_debug.tar" "usr/" "BoyerMoore2.java" "take off uplink squak-Oct 10 2011-06 10 PM.html" "./" "images/" "../" "BoyerMoore_orig.java" "t2/" "Suggest$1.class" "README.txt" "Suggest.class" "BoyerMoore.class" "Suggest.java~" "Suggest_orig.java" "Suggest.java" "BoyerMoore.java" "BoyerMoore2.java~" "BE Coding Test.zip" "6922161/" "libflashplayer.so" "take off uplink squak-Oct 10 2011-06 10 PM.zip" "Suggest$KeypadComparator.class")
+
+ ("/home/los/Downloads/tmp/t2/" (20267 5026) "coreservice.log" "volatile17/" "volatile2/" "dtservd.log" "hms_log_file.log" "volatile8/" "volatile23/" "volatile20/" "volatile16/" "xload-server.log" "arincprd.log" "volatile29/" "efb_init.log" "adc.dat" "volatile12/" "lost+found/" "volatile10/" "./" "fault.log" "xload-client.log" "volatile26/" "volatile5/" "../" "shop.log.archive" "volatile21/" "volatile4/" "prin" "volatile7/" "linuxfail1.txt" "volatile19/" "volatile27/" "volatile14/" "prout" "bit.log.archive" "volatile36/" "brtservd.log" "volatile35/" "duout" "volatile25/" "volatile11/" "volatile15/" "volatile24/" "fault.log.archive" "cfgserv.log" "prservd.log" "dmesg_dn.log" "volatile38/" "volatile0/" "EFB-799L-CORES.tar" "ducp" "volatile30/" "volatile13/" "EFB-799L-LOGS.tar" "volatile34/" "volatile32/" "core_nxf" "EuDuConfigData.ini" "current_faults.log" "shop.log" "dmesg_up.log" "volatile3/" "volatile6/" "bit.log" "volatile9/" "volatile33/" "powerup.dat" "volatile39/" "linuxfail2.txt" "volatile22/" "volatile18/" "LinuxDB" "ioservd.log" "volatile28/" "volatile1/" "volatile37/" "volatile31/" "dump" "lsap.db")
+
+ ("/media/" (20259 17611) "0C12-876D/" "../" "./")
+
+ ("/home/los/Haskell-Playground-2/encounters/src/" (20199 51206) "Query.o" "Site.hs~" "Encounters.o" "Query.hi" "Application.hi" "./" "../" "Encounters" "CreatureTables.hs" "CreatureTables.hi" "Application.o" "Encounters.hi" "Site.hs.old" "Snap/" "BuildTables.hs" "Query.hs" "Application.hs" ".#Encounters.hs" "CreatureTables.o" "Encounters.hs" "Site.hs" "Main.hs" "Application.hs~" "BuildTables")
+
+ ("/home/los/Haskell-Playground-2/" (20198 19785) "snap-sql-example/" "Factor_tests" "tictactoe_api.o" "cheese.x/" "./" "../" "chs/" "encounters.bak/" "encounters/" "cheese/" ".git/" "encounters.nov17/" "Factor.hs" "Factor_tests.o" "tictactoe_api.hs" "Factor.o")
+
+ ("/home/los/Haskell-Playground-2/encounters/resources/templates/" (20198 39992) "creatures.tpl" "region_encounter.tpl" "./" "../" "creatures_test.tpl" "nav.tpl" "levels.tpl" "templates.tpl" "index.tpl" "region_and_encounter_page.tpl" "echo.tpl" "regions.tpl")
+
+ ("/home/los/Haskell-Playground-2/encounters/resources/" (20198 19780) "./" "../" "templates/" "templates.old/" "static/")
+
+ ("/home/los/Haskell-Playground-2/encounters/" (20198 21068) ".gitignore" "./" "log/" "../" ".git.old/" ".git/" "encounters.cabal" "resources/" "dist/" "src/")
+
+ ("/home/los/.emacs.d/elpa/" (20166 56138) "gh-0.3.2/" "find-file-in-project-3.0/" "./" "../" "idle-highlight-mode-1.1.2/" "ido-ubiquitous-0.7/" "smex-1.1.1/" "archives/" "starter-kit-bindings-2.0.2/" "paredit-22/" "xml-rpc-1.6.8/" "starter-kit-2.0.3/" "starter-kit-eshell-2.0.2/" "magit-1.0.0/")
+
+ ("/home/los/.emacs.d/elpa/starter-kit-bindings-2.0.2/" (20166 56138) "starter-kit-bindings-pkg.elc" "starter-kit-bindings.el" "./" "../" "starter-kit-bindings-autoloads.el" "starter-kit-bindings.elc" "starter-kit-bindings-pkg.el")
+
+ ("/home/los/.emacs.d/init.d/" (20165 33334) "backup.el" "packages.el" "./" "../" "packages.el~")
+
+ ("/home/los/.emacs.d/auto-save-list/" (20165 34852) ".saves-2033-leesmachine~" ".saves-2395-leesmachine~" ".saves-2205-leesmachine~" "./" "../" ".saves-2139-leesmachine~" ".saves-1857-leesmachine~" ".saves-1952-leesmachine~" ".saves-2012-leesmachine~")
+
+ ("/home/" (20080 60435) "./" "../" "los/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

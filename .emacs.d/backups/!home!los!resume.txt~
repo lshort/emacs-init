@@ -1,0 +1,113 @@
+[written in 3rd person]
+Lee has been with Astronautics since 2007.  For all of that time, he
+has been on site at Boeing supporting the Electronic Flight Bag.  His
+responsibilities include technical support, hardware configuration
+management (both legacy and 787), and informal status communication.
+Periodically, he find time to participate in C and C++ software
+development.   
+
+From 1994 to 2007, Lee was at Aero Systems Engineering in St Paul, MN.
+There, he was lead developer and architect of the ASE2000 real-time
+data acquisition and control system.  He developed software, designed
+features, mentored other team members, and trained customer staff.
+The development environment was Unix and Linux, with 
+
+
+
+
+2007—present, Astronautics Corporation of America
+I am an onsite technical representative to Boeing. The
+product I am working with is the Electronic Flight Bag, a
+cockpit instrument that replaces pilot paperwork. The EFB
+consists of a pair of PCs, one Linux and one Windows, which
+host various applications developed by Boeing and other
+Boeing suppliers. My responsibilities include:
+• Informal project management – I report work status to
+lower-level Boeing management
+• Hardware configuration management – I work with
+Boeing’s configuration management system to ensure
+that all ACA hardware onsite meets FAA configuration
+management requirements.
+• Developer support – I aid the application developers in
+debugging problems they find during development.
+• Integration and debugging – I investigate problem
+reports and diagnose the source of the fault.
+• C and C++ development – I have developed tools to
+analyze data and made changes in deliverable software to
+support changes in flight deck protocols.
+1994—1996, 2001—2007, Aero Systems Engineering, Inc.
+I was the lead developer of the ASE2000 realtime data ac-
+quisition and control system (http://www.aerosysengr.com/
+Products/ASE2000/ase2000.html). My work on the project
+spanned more than a dozen years and was instrumental in
+the growing market share that the ASE2000 acquired due to
+its reputation for robustness and reliability.
+After initial delivery of the ASE2000 in 1995, I was heavily
+involved in development of the product line. I designed, or
+had input in the design of, all new software features.
+The ASE2000 team ranged from 4 to 7 developers. In
+addition to code development, my responsibilities included:
+•
+•
+•
+•
+requirements analysis and product design,
+mentoring and assisting the other developers,
+teaching technical classes for other developers and users,
+supporting installed systems, both onsite and offsite.
+Most work on this system was done on Linux and Tru64 Unix
+under C++. Some of my specific accomplishments include:
+S
+h o r t
+• defined a FORTRAN-like domain specific language
+for programming the ASE2000 and implemented an
+interpreter, a compiler, and support tools for the language.
+• implemented a number of the functions available in the
+domain-specific language. These functions varied from
+curve fitting, to matrix math, binary operations, unit
+conversion, control of system functions, timer activation,
+report generation, and more.
+• implemented communications protocols including
+ARINC 429, AFDX, Mil-Std-1553, and Ethernet Global
+Data for GE FANUC PLCs.
+• implemented a shared memory database to share system
+information among the different processes that run on
+the host computer, and a set of libraries to access this
+information. This simplified data sharing among different
+processes, and allowed customers to write programs that
+access the ASE2000 data at run time.
+1996—2001, Independent Contractor
+Clients included Siemens EMPROS, Argenta Systems, Aero
+Systems Engineering, and the University of Minnesota. In
+addition to the work for Aero Systems described above,
+major work included:
+• designed and coded enhancements to an existing data
+acquisition system for SCADA power grid management
+for Siemens EMPROS.
+1988—1994, Hughes Training, Inc.
+• designed and developed a series of small research and
+development projects which used heuristic-based
+algorithms for smart opposing forces in a network-based
+military simulation. This work was done in C under
+Irix. The algorithms were based on well-known Artificial
+Intelligence search algorithms; most of the real work was
+in the mathematical models behind the heuristics. I was
+awarded the patent “Tactical Route Planning Method for
+Use in Simulated Tactical Engagements.” for my work on
+this series of projects.
+• implemented a embedded TCP-based communications
+protocol for the Joint STARS radar system prototype.
+• maintained and enhanced in-house CASE tools to aid in
+developing embedded code for x86 processors. The tools
+were written in Lisp on a Symbolics Lisp Machine, and
+allowed the users to program in a block model language.
+Awards
+I am the sole inventor on US Patent 5,187,667 “Tactical Route
+Planning Method for Use in Simulated Tactical Engagements.”
+Education
+• Harvey Mudd College, Claremont, California. B.S.,
+Applied Mathematics, 1987.
+• University of California, Irvine, California. One year
+in Computer Science Graduate School, 1988, focus in
+Artificial Intelligence.
+

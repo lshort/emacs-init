@@ -1,0 +1,35 @@
+(setq los-emacs-init-file load-file-name)
+(setq los-emacs-config-dir
+      (file-name-directory los-emacs-init-file))
+
+
+(setq user-emacs-directory los-emacs-config-dir)
+
+(setq backup-directory-alist
+      (list (cons "." (expand-file-name "backup" user-emacs-directory))))
+
+(tool-bar-mode 0)
+
+(setq package-archives
+      '(("gnu" . "http://elpa.gnu.org/packages/")
+        ("marmalade" . "http://marmalade-repo.org/packages/")
+        ("Tromey" . "http://tromey.com/elpa/")))
+(package-initialize)
+(setq abg-required-packages
+      (list 'xml-rpc 'magit 'gh))
+(dolist (package abg-required-packages)
+  (when (not (package-installed-p package))
+    (package-refresh-contents)
+    (package-install package)))
+
+;; Set up 'custom' system
+(setq custom-file (expand-file-name "emacs-customizations.el" los-emacs-config-dir))
+;(setq custom-file "~/.emacs.d/emacs-customizations.el")
+(load custom-file)
+
+(add-hook 'los-code-modes-hook
+          (lambda () (linum-mode 1)))
+
+(add-hook 'haskell-mode-hook
+          (lambda () (run-hooks 'los-code-modes-hook)))
+

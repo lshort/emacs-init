@@ -1,0 +1,37 @@
+ {-# LANGUAGE OverloadedStrings, FlexibleInstances #-}
+
+{-|
+
+This is where all the routes and handlers are defined for your site. The
+'site' function combines everything together and is exported by this module.
+
+-}
+
+
+import           Control.Applicative
+import           Control.Monad
+import           Data.Maybe
+import           Data.List
+import           Data.ByteString.Internal
+import qualified Data.Text.Encoding as T
+import qualified Data.Text as DT
+import           Debug.Trace
+import           System.Random
+
+
+class DieRoller a where
+  rollDie :: a -> Int -> IO Int
+
+class RandomAlg a where
+  execute :: DieRoller x => a -> x -> IO Int
+
+findExpected :: (DieRoller x) => (x -> Int) -> Int -> IO Double
+findExpected = undefined
+
+
+
+instance RandomAlg 
+
+instance DieRoller  ((StdGen->(a,StdGen)) -> IO a) where
+  rollDie gen sides = gen (randomR (1,sides))
+

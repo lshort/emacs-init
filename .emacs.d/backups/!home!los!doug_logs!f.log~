@@ -1,0 +1,363 @@
+SYSTEM START GROUND                                          0243z FEB17/12
+sent config message at 27.798297 
+                           0243z FEB17/12
+sent config message at 33.081065 
+                           0244z FEB17/12
+sent config message at 38.361192 
+                           0244z FEB17/12
+sent config message at 43.462121 
+                           0244z FEB17/12
+new message at 44.882277  flags fff80001
+                    0244z FEB17/12
+got config at 44:882528 
+                                    0244z FEB17/12
+new message at 44.994132  flags fff80003
+                    0244z FEB17/12
+got config at 44:994355 
+                                    0244z FEB17/12
+new message at 45.105262  flags fff80003
+                    0244z FEB17/12
+got config at 45:105556 
+                                    0244z FEB17/12
+new message at 45.105704  flags fff80007
+                    0244z FEB17/12
+got config at 45:105830 
+                                    0244z FEB17/12
+new message at 45.217268  flags fff80007
+                    0244z FEB17/12
+got config at 45:217509 
+                                    0244z FEB17/12
+new message at 45.217661  flags fff8000f
+                    0244z FEB17/12
+got config at 45:217786 
+                                    0244z FEB17/12
+new message at 45.328423  flags fff8000f
+                    0244z FEB17/12
+got config at 45:328727 
+                                    0244z FEB17/12
+new message at 45.328879  flags fff8001f
+                    0244z FEB17/12
+got config at 45:329009 
+                                    0244z FEB17/12
+new message at 45.439305  flags fff8001f
+                    0244z FEB17/12
+got config at 45:439709 
+                                    0244z FEB17/12
+new message at 45.439865  flags fff8003f
+                    0244z FEB17/12
+got config at 45:439995 
+                                    0244z FEB17/12
+new message at 45.561212  flags fff8003f
+                    0244z FEB17/12
+got config at 45:561564 
+                                    0244z FEB17/12
+new message at 45.561711  flags fff8007f
+                    0244z FEB17/12
+got config at 45:561841 
+                                    0244z FEB17/12
+new message at 45.673034  flags fff8007f
+                    0244z FEB17/12
+got config at 45:673257 
+                                    0244z FEB17/12
+new message at 45.673432  flags fff800ff
+                    0244z FEB17/12
+got config at 45:673562 
+                                    0244z FEB17/12
+new message at 45.729025  flags fff800ff
+                    0244z FEB17/12
+got config at 45:729316 
+                                    0244z FEB17/12
+new message at 45.786085  flags fff801ff
+                    0244z FEB17/12
+got config at 45:786578 
+                                    0244z FEB17/12
+new message at 45.898379  flags fff803ff
+                    0244z FEB17/12
+got config at 45:898623 
+                                    0244z FEB17/12
+new message at 46.011417  flags fff807ff
+                    0244z FEB17/12
+got config at 46:011663 
+                                    0244z FEB17/12
+new message at 46.124138  flags fff80fff
+                    0244z FEB17/12
+got config at 46:124445 
+                                    0244z FEB17/12
+new message at 46.237020  flags fff81fff
+                    0244z FEB17/12
+got config at 46:237253 
+                                    0244z FEB17/12
+new message at 46.351554  flags fff83fff
+                    0244z FEB17/12
+got config at 46:351777 
+                                    0244z FEB17/12
+new message at 46.409187  flags fff87fff
+                    0244z FEB17/12
+got config at 46:409435 
+                                    0244z FEB17/12
+new message at 46.534957  flags fff8ffff
+                    0244z FEB17/12
+got config at 46:535273 
+                                    0244z FEB17/12
+new message at 46.651182  flags fff9ffff
+                    0244z FEB17/12
+got config at 46:651441 
+                                    0244z FEB17/12
+new message at 46.767489  flags fffbffff
+                    0244z FEB17/12
+got config at 46:767715 
+                                    0244z FEB17/12
+new message at 46.885144  flags ffffffff
+                    0244z FEB17/12
+got config at 46:885424 
+                                    0244z FEB17/12
+new message at 46.944186  flags ffffffff
+                    0244z FEB17/12
+got config at 46:944445 
+                                    0244z FEB17/12
+new message at 47.080954  flags ffffffff
+                    0244z FEB17/12
+got config at 47:081193 
+                                    0244z FEB17/12
+new message at 47.675088  flags ffffffff
+                    0244z FEB17/12
+got config at 47:675328 
+                                    0244z FEB17/12
+new message at 47.791661  flags ffffffff
+                    0244z FEB17/12
+got config at 47:791885 
+                                    0244z FEB17/12
+new message at 47.908662  flags ffffffff
+                    0244z FEB17/12
+got config at 47:908880 
+                                    0244z FEB17/12
+new message at 47.967290  flags ffffffff
+                    0244z FEB17/12
+got config at 47:967511 
+                                    0244z FEB17/12
+new message at 48.082848  flags ffffffff
+                    0244z FEB17/12
+got config at 48:083093 
+                                    0244z FEB17/12
+new message at 48.201051  flags ffffffff
+                    0244z FEB17/12
+got config at 48:201275 
+                                    0244z FEB17/12
+new message at 48.317641  flags ffffffff
+                    0244z FEB17/12
+got config at 48:317867 
+                                    0244z FEB17/12
+new message at 48.434560  flags ffffffff
+                    0244z FEB17/12
+got config at 48:434783 
+                                    0244z FEB17/12
+new message at 48.552717  flags ffffffff
+                    0244z FEB17/12
+got config at 48:553009 
+                                    0244z FEB17/12
+new message at 48.680583  flags ffffffff
+                    0244z FEB17/12
+got config at 48:680807 
+                                    0244z FEB17/12
+new message at 48.798524  flags ffffffff
+                    0244z FEB17/12
+got config at 48:798748 
+                                    0244z FEB17/12
+new message at 48.915467  flags ffffffff
+                    0244z FEB17/12
+got config at 48:915690 
+                                    0244z FEB17/12
+new message at 49.031541  flags ffffffff
+                    0244z FEB17/12
+got config at 49:031764 
+                                    0244z FEB17/12
+new message at 49.090532  flags ffffffff
+                    0244z FEB17/12
+got config at 49:090754 
+                                    0244z FEB17/12
+new message at 49.207529  flags ffffffff
+                    0244z FEB17/12
+got config at 49:207752 
+                                    0244z FEB17/12
+new message at 49.324458  flags ffffffff
+                    0244z FEB17/12
+got config at 49:324682 
+                                    0244z FEB17/12
+new message at 49.441500  flags ffffffff
+                    0244z FEB17/12
+got config at 49:441727 
+                                    0244z FEB17/12
+new message at 49.560569  flags ffffffff
+                    0244z FEB17/12
+got config at 49:560924 
+                                    0244z FEB17/12
+new message at 49.687425  flags ffffffff
+                    0244z FEB17/12
+got config at 49:687711 
+                                    0244z FEB17/12
+new message at 50.213301  flags ffffffff
+                    0244z FEB17/12
+got config at 50:213526 
+                                    0244z FEB17/12
+new message at 50.330347  flags ffffffff
+                    0244z FEB17/12
+got config at 50:330572 
+                                    0244z FEB17/12
+new message at 50.447581  flags ffffffff
+                    0244z FEB17/12
+got config at 50:447861 
+                                    0244z FEB17/12
+new message at 50.564679  flags ffffffff
+                    0244z FEB17/12
+got config at 50:564909 
+                                    0244z FEB17/12
+new message at 50.682226  flags ffffffff
+                    0244z FEB17/12
+got config at 50:682448 
+                                    0244z FEB17/12
+new message at 50.809212  flags ffffffff
+                    0244z FEB17/12
+got config at 50:809437 
+                                    0244z FEB17/12
+new message at 50.925315  flags ffffffff
+                    0244z FEB17/12
+got config at 50:925537 
+                                    0244z FEB17/12
+new message at 50.984786  flags ffffffff
+                    0244z FEB17/12
+got config at 50:985005 
+                                    0244z FEB17/12
+new message at 51.101974  flags ffffffff
+                    0244z FEB17/12
+got config at 51:102194 
+                                    0244z FEB17/12
+new message at 51.218153  flags ffffffff
+                    0244z FEB17/12
+got config at 51:218379 
+                                    0244z FEB17/12
+new message at 51.335120  flags ffffffff
+                    0244z FEB17/12
+got config at 51:335344 
+                                    0244z FEB17/12
+new message at 51.451245  flags ffffffff
+                    0244z FEB17/12
+got config at 51:451497 
+                                    0244z FEB17/12
+new message at 51.569664  flags ffffffff
+                    0244z FEB17/12
+got config at 51:569886 
+                                    0244z FEB17/12
+new message at 51.686075  flags ffffffff
+                    0244z FEB17/12
+got config at 51:686299 
+                                    0244z FEB17/12
+new message at 51.814196  flags ffffffff
+                    0244z FEB17/12
+got config at 51:814510 
+                                    0244z FEB17/12
+new message at 51.873123  flags ffffffff
+                    0244z FEB17/12
+got config at 51:873343 
+                                    0244z FEB17/12
+new message at 51.990736  flags ffffffff
+                    0244z FEB17/12
+got config at 51:990960 
+                                    0244z FEB17/12
+new message at 52.107356  flags ffffffff
+                    0244z FEB17/12
+got config at 52:107615 
+                                    0244z FEB17/12
+new message at 52.224294  flags ffffffff
+                    0244z FEB17/12
+got config at 52:224540 
+                                    0244z FEB17/12
+new message at 52.809541  flags ffffffff
+                    0244z FEB17/12
+got config at 52:809762 
+                                    0244z FEB17/12
+new message at 52.938511  flags ffffffff
+                    0244z FEB17/12
+got config at 52:938881 
+                                    0244z FEB17/12
+new message at 52.997672  flags ffffffff
+                    0244z FEB17/12
+got config at 52:998128 
+                                    0244z FEB17/12
+new message at 53.133979  flags ffffffff
+                    0244z FEB17/12
+got config at 53:134259 
+                                    0244z FEB17/12
+new message at 53.250812  flags ffffffff
+                    0244z FEB17/12
+got config at 53:251032 
+                                    0244z FEB17/12
+new message at 53.366941  flags ffffffff
+                    0244z FEB17/12
+got config at 53:367167 
+                                    0244z FEB17/12
+new message at 53.483851  flags ffffffff
+                    0244z FEB17/12
+got config at 53:484077 
+                                    0244z FEB17/12
+new message at 53.603662  flags ffffffff
+                    0244z FEB17/12
+got config at 53:603881 
+                                    0244z FEB17/12
+new message at 53.719852  flags ffffffff
+                    0244z FEB17/12
+got config at 53:720077 
+                                    0244z FEB17/12
+new message at 53.779046  flags ffffffff
+                    0244z FEB17/12
+got config at 53:779341 
+                                    0244z FEB17/12
+new message at 53.907785  flags ffffffff
+                    0244z FEB17/12
+got config at 53:908071 
+                                    0244z FEB17/12
+new message at 54.024812  flags ffffffff
+                    0244z FEB17/12
+got config at 54:025117 
+                                    0244z FEB17/12
+new message at 54.142169  flags ffffffff
+                    0244z FEB17/12
+got config at 54:142395 
+                                    0244z FEB17/12
+new message at 54.260180  flags ffffffff
+                    0244z FEB17/12
+got config at 54:260407 
+                                    0244z FEB17/12
+new message at 54.376674  flags ffffffff
+                    0244z FEB17/12
+got config at 54:376896 
+                                    0244z FEB17/12
+new message at 54.493695  flags ffffffff
+                    0244z FEB17/12
+got config at 54:493923 
+                                    0244z FEB17/12
+new message at 54.553203  flags ffffffff
+                    0244z FEB17/12
+got config at 54:553423 
+                                    0244z FEB17/12
+new message at 54.670041  flags ffffffff
+                    0244z FEB17/12
+got config at 54:670267 
+                                    0244z FEB17/12
+new message at 54.786703  flags ffffffff
+                    0244z FEB17/12
+got config at 54:786925 
+                                    0244z FEB17/12
+got config at 24:273621 
+                                    0245z FEB17/12
+got config at 24:691016 
+                                    0245z FEB17/12
+NO CCD INPUT DATA                                            0246z FEB17/12
+NO GN1 INPUT DATA                                            0246z FEB17/12
+NO IR3 INPUT DATA                                            0246z FEB17/12
+NO GP1 INPUT DATA                                            0246z FEB17/12
+NO ACARS2 LEFT INPUT DATA                                    0246z FEB17/12
+NO ACARS LEFT INPUT DATA                                     0246z FEB17/12
+NO FM1L INPUT DATA                                           0246z FEB17/12
+NO FM1R INPUT DATA                                           0246z FEB17/12
+NO AD3 INPUT DATA                                            0246z FEB17/12
+NO PR1 INPUT DATA                                            0246z FEB17/12
