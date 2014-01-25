@@ -1,8 +1,0 @@
-(setq los-emacs-init-file load-file-name)
-(setq los-emacs-config-dir
-      (file-name-directory los-emacs-init-file))
-
-(setq user-emacs-directory los-emacs-config-dir)
-
-(setq backup-directory-alist
-      (list (cons "." (expand-file-name "backup" user-emacs-directory))))
