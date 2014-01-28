@@ -5,6 +5,10 @@
 
 (load-theme 'light-blue t)
 
+(require 'org)
+(setq org-log-done t)
+
+
 ;(add-hook 'prog-mode-hook 'predule-turn-off-whitespace t)
 
 ;(require 'pink-bliss)
