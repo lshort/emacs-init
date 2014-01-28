@@ -7,6 +7,7 @@
 
 (require 'org)
 (setq org-log-done t)
+(setq org-default-notes-file (concat org-directory "/notes.org"))
 
 
 ;(add-hook 'prog-mode-hook 'predule-turn-off-whitespace t)

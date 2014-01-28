@@ -28,6 +28,12 @@
 (global-set-key (kbd "C-c l") 'org-store-link)
 (global-set-key (kbd "C-c a") 'org-agenda)
 
+;(global-set-key (kbd "C-c c") 'org-capture)
+;(global-set-key (kbd "C-c C-c") 'org-capture-finalize)
+;(global-set-key (kbd "C-c c") 'org-capture-refile)
+;(global-set-key (kbd "C-c c") 'org-capture-kill)
+
+
 (defalias 'list-buffers 'ibuffer)
 
 (defun call-ten-macros ()
