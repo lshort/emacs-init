@@ -1,0 +1,40 @@
+*Search
+** TODO upload resume to simply hired
+*Contacts
+** dennis.wood@ge.com [GE Aviation -- Everett support position]
+*Long Term Development
+** BI + NLP
+** Grad School
+** Networking
+*** TODO Write my own TCP/IP
+*Review
+** General
+*** TODO Lumosity
+*** TODO look at ack
+** Data Structures & Algorithms
+*** TODO tree traverals
+*** TODO graph algorithms -- topographical sort
+*** Sorting Cheat Sheet
+sorts
+ big data -> mergesort
+ avg time -> quicksort
+ special -> radix sort
+ predictable response time -> heapsort
+order statistics
+ single # -> randomized quick select
+ multiple, middle of pack -> randomized quick select
+ multiple, endpoints -> insertion sort
+** Haskell
+*** TODO A taste of the lambda calculus
+** C++
+*** TODO Eric Niebler -- Expressive C++
+*** TODO MPL / Fusion
+*** TODO TMP utility to print a memory map of any object
+*** TODO TMP ifdefs
+*** TODO In General, how to write C++ like Haskell
+*** TODO VC++ Tutorial
+*** TODO C++ FAQ + FQA
+** Emacs
+*** TODO key chord mode
+*** TODO Extension to cpp mode to handle multiple close braces on one line
+*** TODO
