@@ -5,6 +5,9 @@
 
 (load-theme 'light-blue t)
 
+(require 'ace-jump-mode)
+(define-key global-map (kbd "C-c SPC") 'ace-jump-mode)
+
 (require 'org)
 (setq org-log-done t)
 (setq org-default-notes-file (concat org-directory "/notes.org"))
