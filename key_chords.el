@@ -20,7 +20,7 @@
 
 (key-chord-define-global "qn" 'recenter-top-bottom)  ;; control-L
 ;(key-chord-define-global "qm" 'hippie-expand)
-;(key-chord-define-global "q," ')
+(key-chord-define-global "q," 'revert-buffer)
 (key-chord-define-global "q." 'narrow-to-region)
 (key-chord-define-global "q/" 'widen)
 
