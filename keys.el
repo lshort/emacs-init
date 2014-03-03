@@ -1,3 +1,6 @@
+;(global-set-key (kbd "<escape>") 'god-local-mode)
+(global-set-key (kbd "<escape>") 'god-mode-all)
+
 (global-set-key (kbd "M-g") 'goto-line)
 (global-set-key (kbd "M-h") 'jump-to-register)
 (global-set-key (kbd "M-j") 'point-to-register)
@@ -49,3 +52,52 @@
           (call-last-kbd-macro)
           (call-last-kbd-macro)
   ))
+
+
+;;; ********* God Mode key bindings
+
+;;; left hand
+(global-set-key (kbd "C-q") 'undo)
+(global-set-key (kbd "C-w") 'sp-backward-kill-char)
+(global-set-key (kbd "C-e") 'sp-kill-word)
+(global-set-key (kbd "C-r") 'sp-delete-char)
+(global-set-key (kbd "C-t") 'kill-line)
+
+
+(global-set-key (kbd "C-a") 'prelude-move-beginning-of-line)
+(global-set-key (kbd "C-s") 'left-word)
+(global-set-key (kbd "C-d") 'right-word)
+(global-set-key (kbd "C-f") 'move-end-of-line)
+;(global-set-key (kbd "C-g") ')
+
+(global-set-key (kbd "C-z") 'delete-other-windows)
+;(global-set-key (kbd "C-x") ') ;reserved as prefix command
+;(global-set-key (kbd "C-c") ') ;reserved as prefix command
+(global-set-key (kbd "C-v") 'split-window-below)
+(global-set-key (kbd "C-b") 'split-window-right)
+
+;;; right hand
+(global-set-key (kbd "C--") 'ido-find-file)
+(global-set-key (kbd "C-=") 'save-some-buffers)
+
+(global-set-key (kbd "C-y") 'point-to-register)
+(global-set-key (kbd "C-u") 'jump-to-register)
+;(global-set-key (kbd "C-i") ')  ; TAB key
+(global-set-key (kbd "C-o") 'copy-to-register)
+(global-set-key (kbd "C-p") 'insert-register)
+;(global-set-key (kbd "C-[]") ')  ; ESCAPE key
+(global-set-key (kbd "C-]") 'query-replace)
+(global-set-key (kbd "C-\\") 'replace-string)
+
+(global-set-key (kbd "C-h") 'prelude-exchange-point-and-mark)
+(global-set-key (kbd "C-j") 'next-line)
+(global-set-key (kbd "C-k") 'previous-line)
+(global-set-key (kbd "C-l") 'recenter-top-bottom)
+(global-set-key (kbd "C-;") 'ace-jump-mode)
+(global-set-key (kbd "C-'") 'ace-jump-line-mode)
+
+(global-set-key (kbd "C-n") 'other-window)
+;(global-set-key (kbd "C-") ') ; RETURN key
+(global-set-key (kbd "C-,") 'ido-switch-buffer)
+(global-set-key (kbd "C-.") 'bury-buffer)
+(global-set-key (kbd "C-/") 'string-rectangle)
