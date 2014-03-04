@@ -58,7 +58,7 @@
 
 ;;; left hand
 (global-set-key (kbd "C-q") 'undo)
-(global-set-key (kbd "C-w") 'sp-backward-kill-char)
+(global-set-key (kbd "C-w") 'sp-backward-kill-word)
 (global-set-key (kbd "C-e") 'sp-kill-word)
 (global-set-key (kbd "C-r") 'sp-delete-char)
 (global-set-key (kbd "C-t") 'kill-line)
@@ -70,11 +70,11 @@
 (global-set-key (kbd "C-f") 'move-end-of-line)
 ;(global-set-key (kbd "C-g") ')
 
-(global-set-key (kbd "C-z") 'delete-other-windows)
+(global-set-key (kbd "C-z") 'yank)
 ;(global-set-key (kbd "C-x") ') ;reserved as prefix command
 ;(global-set-key (kbd "C-c") ') ;reserved as prefix command
-(global-set-key (kbd "C-v") 'split-window-below)
-(global-set-key (kbd "C-b") 'split-window-right)
+(global-set-key (kbd "C-v") 'kill-ring-save) ; copy
+(global-set-key (kbd "C-b") 'kill-region) ' cut
 
 ;;; right hand
 (global-set-key (kbd "C--") 'ido-find-file)
@@ -97,7 +97,19 @@
 (global-set-key (kbd "C-'") 'ace-jump-line-mode)
 
 (global-set-key (kbd "C-n") 'other-window)
-;(global-set-key (kbd "C-") ') ; RETURN key
+;(global-set-key (kbd "C-m") 'hippie-expand) ; RETURN key
 (global-set-key (kbd "C-,") 'ido-switch-buffer)
 (global-set-key (kbd "C-.") 'bury-buffer)
 (global-set-key (kbd "C-/") 'string-rectangle)
+
+;;; number keys
+(global-set-key (kbd "C-1") 'delete-other-windows)
+(global-set-key (kbd "C-2") 'split-window-below)
+(global-set-key (kbd "C-3") 'split-window-right)
+;(global-set-key (kbd "C-4") 'delete-other-windows)
+;(global-set-key (kbd "C-5") 'delete-other-windows)
+;(global-set-key (kbd "C-6") 'delete-other-windows)
+;(global-set-key (kbd "C-7") 'delete-other-windows)
+;(global-set-key (kbd "C-8") 'delete-other-windows)
+;(global-set-key (kbd "C-9") 'delete-other-windows)
+(global-set-key (kbd "C-1") 'delete-window)
