@@ -1,4 +1,3 @@
-;(global-set-key (kbd "<escape>") 'god-local-mode)
 (global-set-key (kbd "<escape>") 'god-mode-all)
 
 (global-set-key (kbd "M-g") 'goto-line)
@@ -57,11 +56,13 @@
 ;;; ********* God Mode key bindings
 
 ;;; left hand
-(global-set-key (kbd "C-q") 'undo)
+(global-set-key (kbd "C-`") 'undo)
+
+(global-set-key (kbd "C-q") 'kill-line)
 (global-set-key (kbd "C-w") 'sp-backward-kill-word)
 (global-set-key (kbd "C-e") 'sp-kill-word)
 (global-set-key (kbd "C-r") 'sp-delete-char)
-(global-set-key (kbd "C-t") 'kill-line)
+(global-set-key (kbd "C-t") 'kill-whole-line)
 
 
 (global-set-key (kbd "C-a") 'prelude-move-beginning-of-line)
@@ -70,7 +71,7 @@
 (global-set-key (kbd "C-f") 'move-end-of-line)
 ;(global-set-key (kbd "C-g") ')
 
-(global-set-key (kbd "C-z") 'yank-pop)
+(global-set-key (kbd "C-z") 'yank)
 ;(global-set-key (kbd "C-x") ') ;reserved as prefix command
 ;(global-set-key (kbd "C-c") ') ;reserved as prefix command
 (global-set-key (kbd "C-v") 'kill-ring-save) ; copy
@@ -97,8 +98,19 @@
 (global-set-key (kbd "C-;") 'forward-char)
 (global-set-key (kbd "C-'") 'ace-jump-line-mode)
 
-(global-set-key (kbd "C-x x") 'prelude-exchange-point-and-mark)
-(global-set-key (kbd "C-x l") 'recenter-top-bottom)
+(global-set-key (kbd "C-x C-x") 'prelude-exchange-point-and-mark)
+(global-set-key (kbd "C-x C-l") 'recenter-top-bottom)
+(global-set-key (kbd "C-x C-z") 'yank-pop)
+(global-set-key (kbd "C-x C-a") 'back-to-indentation) ;go to first nonwhitespace
+(global-set-key (kbd "C-x C-o") 'bookmark-set)
+(global-set-key (kbd "C-x C-p") 'bookmark-jump)
+(global-set-key (kbd "C-x C-s") 'ido-goto-symbol)
+(global-set-key (kbd "C-x C-g") 'goto-line)
+(global-set-key (kbd "C-x C-SPC") 'push-mark-no-activate)
+(global-set-key (kbd "C-x C-k") 'ido-kill-buffer)
+(global-set-key (kbd "C-x C-v") 'next-error) ; compilation mode
+(global-set-key (kbd "C-x C-r") 'revert-buffer)
+(global-set-key (kbd "C-x C-i") 'indent-region)
 
 (global-set-key (kbd "C-n") 'other-window)
 ;(global-set-key (kbd "C-m") 'hippie-expand) ; RETURN key
@@ -110,12 +122,12 @@
 (global-set-key (kbd "C-1") 'delete-other-windows)
 (global-set-key (kbd "C-2") 'split-window-below)
 (global-set-key (kbd "C-3") 'split-window-right)
-(global-set-key (kbd "C-4") 'revert-buffer)
-;(global-set-key (kbd "C-5") 'delete-other-windows)
-;(global-set-key (kbd "C-6") 'delete-other-windows)
-;(global-set-key (kbd "C-7") 'delete-other-windows)
-;(global-set-key (kbd "C-8") 'delete-other-windows)
-;(global-set-key (kbd "C-9") 'delete-)
+(global-set-key (kbd "C-4") 'backward-sexp)
+(global-set-key (kbd "C-5") 'forward-sexp)
+(global-set-key (kbd "C-6") 'isearch-forward)
+(global-set-key (kbd "C-7") 'isearch-forward-word)
+(global-set-key (kbd "C-8") 'isearch-backward-word)
+;(global-set-key (kbd "C-9") 'evilnc-comment-or-uncomment-lines)
 (global-set-key (kbd "C-0") 'delete-window)
 
 ;;; keys.el ends here
