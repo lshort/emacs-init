@@ -70,11 +70,11 @@
 (global-set-key (kbd "C-f") 'move-end-of-line)
 ;(global-set-key (kbd "C-g") ')
 
-(global-set-key (kbd "C-z") 'yank)
+(global-set-key (kbd "C-z") 'yank-pop)
 ;(global-set-key (kbd "C-x") ') ;reserved as prefix command
 ;(global-set-key (kbd "C-c") ') ;reserved as prefix command
 (global-set-key (kbd "C-v") 'kill-ring-save) ; copy
-(global-set-key (kbd "C-b") 'kill-region) ' cut
+(global-set-key (kbd "C-b") 'kill-region) ; cut
 
 ;;; right hand
 (global-set-key (kbd "C--") 'ido-find-file)
@@ -89,12 +89,16 @@
 (global-set-key (kbd "C-]") 'query-replace)
 (global-set-key (kbd "C-\\") 'replace-string)
 
-(global-set-key (kbd "C-h") 'prelude-exchange-point-and-mark)
-(global-set-key (kbd "C-j") 'next-line)
-(global-set-key (kbd "C-k") 'previous-line)
-(global-set-key (kbd "C-l") 'recenter-top-bottom)
-(global-set-key (kbd "C-;") 'ace-jump-mode)
+(global-set-key (kbd "C-h") 'ace-jump-mode)
+(global-set-key (kbd "C-j") 'backward-char)
+;(global-set-key (kbd "C-h") 'prelude-exchange-point-and-mark)
+(global-set-key (kbd "C-k") 'next-line)
+(global-set-key (kbd "C-l") 'previous-line)
+(global-set-key (kbd "C-;") 'forward-char)
 (global-set-key (kbd "C-'") 'ace-jump-line-mode)
+
+(global-set-key (kbd "C-x x") 'prelude-exchange-point-and-mark)
+(global-set-key (kbd "C-x l") 'recenter-top-bottom)
 
 (global-set-key (kbd "C-n") 'other-window)
 ;(global-set-key (kbd "C-m") 'hippie-expand) ; RETURN key
@@ -106,10 +110,12 @@
 (global-set-key (kbd "C-1") 'delete-other-windows)
 (global-set-key (kbd "C-2") 'split-window-below)
 (global-set-key (kbd "C-3") 'split-window-right)
-;(global-set-key (kbd "C-4") 'delete-other-windows)
+(global-set-key (kbd "C-4") 'revert-buffer)
 ;(global-set-key (kbd "C-5") 'delete-other-windows)
 ;(global-set-key (kbd "C-6") 'delete-other-windows)
 ;(global-set-key (kbd "C-7") 'delete-other-windows)
 ;(global-set-key (kbd "C-8") 'delete-other-windows)
-;(global-set-key (kbd "C-9") 'delete-other-windows)
-(global-set-key (kbd "C-1") 'delete-window)
+;(global-set-key (kbd "C-9") 'delete-)
+(global-set-key (kbd "C-0") 'delete-window)
+
+;;; keys.el ends here
