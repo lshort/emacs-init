@@ -37,7 +37,8 @@
 (define-key my-keys-minor-mode-map [f11] 'describe-key)
 (define-key my-keys-minor-mode-map [f12] 'eval-defun) ;evals crnt sexp
 
-(define-key my-keys-minor-mode-map (kbd "C-c C-c") 'execute-extended-command)
+;(define-key my-keys-minor-mode-map (kbd "C-c C-c") 'execute-extended-command)
+(define-key my-keys-minor-mode-map (kbd "C-c C-c") 'smex)
 (define-key my-keys-minor-mode-map (kbd "C-x C-d") 'bury-buffer)
 (define-key my-keys-minor-mode-map (kbd "C-o") 'undo)
 (define-key my-keys-minor-mode-map (kbd "C-,") 'copy-to-register)
@@ -88,6 +89,7 @@
 (define-key my-keys-minor-mode-map (kbd "C-d") 'subword-forward)
 (define-key my-keys-minor-mode-map (kbd "C-f") 'move-end-of-line)
 ;(define-key my-keys-minor-mode-map (kbd "C-g") ')
+;TODO: replace ^G with something useful (M-d ??), and use this spot
 
 ;(define-key c++-mode-map (kbd "C-d") 'right-word)
 ;(define-key c-mode-map (kbd "C-d") 'right-word)
@@ -132,7 +134,7 @@
 (define-key my-keys-minor-mode-map (kbd "C-x C-v") 'next-error) ; compilation mode
 (define-key my-keys-minor-mode-map (kbd "C-x C-r") 'revert-buffer)
 (define-key my-keys-minor-mode-map (kbd "C-x C-i") 'indent-region)
-(define-key my-keys-minor-mode-map (kbd "C-x C-r") 'transpose-words)
+(define-key my-keys-minor-mode-map (kbd "C-x C-q") 'transpose-words)
 (define-key my-keys-minor-mode-map (kbd "C-x C-t") 'delete-horizontal-space)
 (define-key my-keys-minor-mode-map (kbd "C-x C-j") 'rgrep)
 (define-key my-keys-minor-mode-map (kbd "C-x C-w") 'ibuffer)

@@ -17,6 +17,7 @@
 (setq org-log-done t)
 (setq org-default-notes-file (concat org-directory "/notes.org"))
 
+(require 'smex)
 (require 'god-mode)
 
 ;(add-hook 'prog-mode-hook 'predule-turn-off-whitespace t)
@@ -43,7 +44,7 @@ Equivalent to \\[set-mark-command] when \\[transient-mark-mode] is disabled"
 
 (defun god-mode-update-cursor ()
   (let ((limited-colors-p (> 257 (length (defined-colors)))))
-    (cond (god-local-mode (progn
+    (cond ((not god-local-mode) (progn
                             (set-face-background 'mode-line (if limited-colors-p "white" "#e9e2cb"))
                             (set-face-background 'mode-line-inactive (if limited-colors-p "white" "#e9e2cb"))))
           (t (progn
@@ -54,8 +55,8 @@ Equivalent to \\[set-mark-command] when \\[transient-mark-mode] is disabled"
 (defun my-update-cursor ()
   (god-mode-update-cursor)
   (setq cursor-type (if (or god-local-mode buffer-read-only)
-                        'box
-                      'bar)))
+                      'box
+                      'hollow)))
 
 (add-hook 'god-mode-enabled-hook 'my-update-cursor)
 (add-hook 'god-mode-disabled-hook 'my-update-cursor)
