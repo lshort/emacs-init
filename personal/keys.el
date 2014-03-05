@@ -35,7 +35,7 @@
 (define-key my-keys-minor-mode-map [f9] 'exit-recursive-edit)
 (define-key my-keys-minor-mode-map [f10] 'apropos)
 (define-key my-keys-minor-mode-map [f11] 'describe-key)
-(define-key my-keys-minor-mode-map [f12] 'eval-defun) ;evals crnt sexp
+(define-key my-keys-minor-mode-map [f12] 'hippie-expand)
 
 ;(define-key my-keys-minor-mode-map (kbd "C-c C-c") 'execute-extended-command)
 (define-key my-keys-minor-mode-map (kbd "C-c C-c") 'smex)
@@ -109,7 +109,6 @@
 
 (define-key my-keys-minor-mode-map (kbd "C-h") 'ace-jump-mode)
 (define-key my-keys-minor-mode-map (kbd "C-j") 'backward-char)
-;(define-key my-keys-minor-mode-map (kbd "C-h") 'prelude-exchange-point-and-mark)
 (define-key my-keys-minor-mode-map (kbd "C-k") 'next-line)
 (define-key my-keys-minor-mode-map (kbd "C-l") 'previous-line)
 (define-key my-keys-minor-mode-map (kbd "C-;") 'forward-char)
@@ -117,7 +116,7 @@
 
 
 (define-key my-keys-minor-mode-map (kbd "C-n") 'other-window)
-                                        ;(define-key my-keys-minor-mode-map (kbd "C-m") 'hippie-expand) ; RETURN key
+;(define-key my-keys-minor-mode-map (kbd "C-m") 'hippie-expand) ; RETURN key
 (define-key my-keys-minor-mode-map (kbd "C-,") 'ido-switch-buffer)
 (define-key my-keys-minor-mode-map (kbd "C-.") 'bury-buffer)
 (define-key my-keys-minor-mode-map (kbd "C-/") 'string-rectangle)
@@ -131,7 +130,8 @@
 (define-key my-keys-minor-mode-map (kbd "C-x C-r") 'revert-buffer)
 (define-key my-keys-minor-mode-map (kbd "C-x C-t") 'delete-horizontal-space)
 
-(define-key my-keys-minor-mode-map (kbd "C-x C-a") 'back-to-indentation) ;go to first nonwhitespace
+(define-key my-keys-minor-mode-map (kbd "C-x C-a") 'back-to-indentation)
+;go to first nonwhitespace
 (define-key my-keys-minor-mode-map (kbd "C-x C-s") 'ido-goto-symbol)
 ;(define-key my-keys-minor-mode-map (kbd "C-x C-d") 'ido-goto-symbol)
 ;(define-key my-keys-minor-mode-map (kbd "C-x C-f") 'ido-goto-symbol)
@@ -164,8 +164,9 @@
 (define-key my-keys-minor-mode-map (kbd "C-x C-'") 'align-regexp)
 
 (define-key my-keys-minor-mode-map (kbd "C-x C-SPC") 'push-mark-no-activate)
-;(define-key my-keys-minor-mode-map (kbd "C-x C-n") 'magit-status)
+(define-key my-keys-minor-mode-map (kbd "C-x C-n") 'hippie-expand)
 (define-key my-keys-minor-mode-map (kbd "C-x C-m") 'magit-status)
+(define-key my-keys-minor-mode-map (kbd "C-x C-,") 'eval-defun) ;evals crnt sexp
 ;(define-key my-keys-minor-mode-map (kbd "C-x C-,") 'magit-status)
 ;(define-key my-keys-minor-mode-map (kbd "C-x C-.") 'magit-status)
 ;(define-key my-keys-minor-mode-map (kbd "C-x C-/") 'magit-status)
