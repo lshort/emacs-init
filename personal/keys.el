@@ -115,35 +115,110 @@
 (define-key my-keys-minor-mode-map (kbd "C-;") 'forward-char)
 (define-key my-keys-minor-mode-map (kbd "C-'") 'ace-jump-line-mode)
 
-(define-key my-keys-minor-mode-map (kbd "C-x C-x") 'prelude-exchange-point-and-mark)
-(define-key my-keys-minor-mode-map (kbd "C-x C-l") 'recenter-top-bottom)
-(define-key my-keys-minor-mode-map (kbd "C-x C-z") 'yank-pop)
-(define-key my-keys-minor-mode-map (kbd "C-x C-a") 'back-to-indentation) ;go to first nonwhitespace
-(define-key my-keys-minor-mode-map (kbd "C-x C-o") 'bookmark-set)
-(define-key my-keys-minor-mode-map (kbd "C-x C-p") 'bookmark-jump)
-(define-key my-keys-minor-mode-map (kbd "C-x C-s") 'ido-goto-symbol)
-(define-key my-keys-minor-mode-map (kbd "C-x C-g") 'goto-line)
-(define-key my-keys-minor-mode-map (kbd "C-x C-SPC") 'push-mark-no-activate)
-(define-key my-keys-minor-mode-map (kbd "C-x C-k") 'ido-kill-buffer)
-(define-key my-keys-minor-mode-map (kbd "C-x C-v") 'next-error) ; compilation mode
-(define-key my-keys-minor-mode-map (kbd "C-x C-r") 'revert-buffer)
-(define-key my-keys-minor-mode-map (kbd "C-x C-i") 'indent-region)
-(define-key my-keys-minor-mode-map (kbd "C-x C-q") 'transpose-words)
-(define-key my-keys-minor-mode-map (kbd "C-x C-t") 'delete-horizontal-space)
-(define-key my-keys-minor-mode-map (kbd "C-x C-j") 'rgrep)
-(define-key my-keys-minor-mode-map (kbd "C-x C-w") 'ibuffer)
-(define-key my-keys-minor-mode-map (kbd "C-x C-m") 'magit-status)
-(define-key my-keys-minor-mode-map (kbd "C-x C-y") 'occur)  ; greppish
-(define-key my-keys-minor-mode-map (kbd "C-x C-u") 'multi-occur-in-this-mode)
-(define-key my-keys-minor-mode-map (kbd "C-x C-'") 'align-regexp)
-
-
 
 (define-key my-keys-minor-mode-map (kbd "C-n") 'other-window)
-;(define-key my-keys-minor-mode-map (kbd "C-m") 'hippie-expand) ; RETURN key
+                                        ;(define-key my-keys-minor-mode-map (kbd "C-m") 'hippie-expand) ; RETURN key
 (define-key my-keys-minor-mode-map (kbd "C-,") 'ido-switch-buffer)
 (define-key my-keys-minor-mode-map (kbd "C-.") 'bury-buffer)
 (define-key my-keys-minor-mode-map (kbd "C-/") 'string-rectangle)
+
+;;; ************************** Control-X mappings
+
+;;; left hand
+(define-key my-keys-minor-mode-map (kbd "C-x C-q") 'transpose-words)
+(define-key my-keys-minor-mode-map (kbd "C-x C-w") 'ibuffer)
+;(define-key my-keys-minor-mode-map (kbd "C-x C-e") 'ibuffer)
+(define-key my-keys-minor-mode-map (kbd "C-x C-r") 'revert-buffer)
+(define-key my-keys-minor-mode-map (kbd "C-x C-t") 'delete-horizontal-space)
+
+(define-key my-keys-minor-mode-map (kbd "C-x C-a") 'back-to-indentation) ;go to first nonwhitespace
+(define-key my-keys-minor-mode-map (kbd "C-x C-s") 'ido-goto-symbol)
+;(define-key my-keys-minor-mode-map (kbd "C-x C-d") 'ido-goto-symbol)
+;(define-key my-keys-minor-mode-map (kbd "C-x C-f") 'ido-goto-symbol)
+(define-key my-keys-minor-mode-map (kbd "C-x C-g") 'goto-line)
+
+(define-key my-keys-minor-mode-map (kbd "C-x C-z") 'yank-pop)
+(define-key my-keys-minor-mode-map (kbd "C-x C-x") 'prelude-exchange-point-and-mark)
+;(define-key my-keys-minor-mode-map (kbd "C-x C-c") 'yank-pop) ; exit-emacs
+(define-key my-keys-minor-mode-map (kbd "C-x C-v") 'next-error) ;compilation mode
+;(define-key my-keys-minor-mode-map (kbd "C-x C-b") 'next-error) ;
+
+;;; right hand
+;(define-key my-keys-minor-mode-map (kbd "C-x C--") 'magit-status)
+;(define-key my-keys-minor-mode-map (kbd "C-x C-=") 'magit-status)
+
+(define-key my-keys-minor-mode-map (kbd "C-x C-y") 'occur)  ; greppish
+(define-key my-keys-minor-mode-map (kbd "C-x C-u") 'multi-occur-in-this-mode)
+(define-key my-keys-minor-mode-map (kbd "C-x C-i") 'indent-region)
+(define-key my-keys-minor-mode-map (kbd "C-x C-o") 'bookmark-set)
+(define-key my-keys-minor-mode-map (kbd "C-x C-p") 'bookmark-jump)
+;(define-key my-keys-minor-mode-map (kbd "C-x C-[]") 'bookmark-jump)
+;(define-key my-keys-minor-mode-map (kbd "C-x C-]") 'bookmark-jump)
+(define-key my-keys-minor-mode-map (kbd "C-x C-\\") 'evilnc-comment-or-uncomment-lines)
+
+;(define-key my-keys-minor-mode-map (kbd "C-x C-h") 'evilnc)
+(define-key my-keys-minor-mode-map (kbd "C-x C-j") 'rgrep)
+(define-key my-keys-minor-mode-map (kbd "C-x C-k") 'ido-kill-buffer)
+(define-key my-keys-minor-mode-map (kbd "C-x C-l") 'recenter-top-bottom)
+;(define-key my-keys-minor-mode-map (kbd "C-x C-;") 'align-regexp)
+(define-key my-keys-minor-mode-map (kbd "C-x C-'") 'align-regexp)
+
+(define-key my-keys-minor-mode-map (kbd "C-x C-SPC") 'push-mark-no-activate)
+;(define-key my-keys-minor-mode-map (kbd "C-x C-n") 'magit-status)
+(define-key my-keys-minor-mode-map (kbd "C-x C-m") 'magit-status)
+;(define-key my-keys-minor-mode-map (kbd "C-x C-,") 'magit-status)
+;(define-key my-keys-minor-mode-map (kbd "C-x C-.") 'magit-status)
+;(define-key my-keys-minor-mode-map (kbd "C-x C-/") 'magit-status)
+
+;;; ************************** Control-C mappings
+
+;;; left hand
+;(define-key my-keys-minor-mode-map (kbd "C-c C-q") 'transpose-words)
+;(define-key my-keys-minor-mode-map (kbd "C-c C-w") 'ibuffer)
+;;(define-key my-keys-minor-mode-map (kbd "C-c C-e") 'ibuffer)
+;(define-key my-keys-minor-mode-map (kbd "C-c C-r") 'revert-buffer)
+;(define-key my-keys-minor-mode-map (kbd "C-c C-t") 'delete-horizontal-space)
+
+;(define-key my-keys-minor-mode-map (kbd "C-c C-a") 'back-to-indentation) ;
+;(define-key my-keys-minor-mode-map (kbd "C-c C-s") 'ido-goto-symbol)
+;;(define-key my-keys-minor-mode-map (kbd "C-c C-d") 'ido-goto-symbol)
+;;(define-key my-keys-minor-mode-map (kbd "C-c C-f") 'ido-goto-symbol)
+;(define-key my-keys-minor-mode-map (kbd "C-c C-g") 'goto-line)
+
+;(define-key my-keys-minor-mode-map (kbd "C-c C-z") 'yank-pop)
+;(define-key my-keys-minor-mode-map (kbd "C-c C-x") 'prelude-mark)
+;;(define-key my-keys-minor-mode-map (kbd "C-c C-c") 'yank-pop) ; exit-emacs
+;(define-key my-keys-minor-mode-map (kbd "C-c C-v") 'next-error) ;
+;;(define-key my-keys-minor-mode-map (kbd "C-c C-b") 'next-error) ;
+
+;;; right hand
+;;(define-key my-keys-minor-mode-map (kbd "C-c C--") 'magit-status)
+;;(define-key my-keys-minor-mode-map (kbd "C-c C-=") 'magit-status)
+
+;(define-key my-keys-minor-mode-map (kbd "C-c C-y") 'occur)  ; greppish
+;(define-key my-keys-minor-mode-map (kbd "C-c C-u") 'multi-occur-in-this-mode)
+;(define-key my-keys-minor-mode-map (kbd "C-c C-i") 'indent-region)
+;(define-key my-keys-minor-mode-map (kbd "C-c C-o") 'bookmark-set)
+;(define-key my-keys-minor-mode-map (kbd "C-c C-p") 'bookmark-jump)
+;;(define-key my-keys-minor-mode-map (kbd "C-c C-[]") 'bookmark-jump)
+;;(define-key my-keys-minor-mode-map (kbd "C-c C-]") 'bookmark-jump)
+;(define-key my-keys-minor-mode-map (kbd "C-c C-\\") 'uncomment-lines)
+
+;;(define-key my-keys-minor-mode-map (kbd "C-c C-h") 'evilnc)
+;(define-key my-keys-minor-mode-map (kbd "C-c C-j") 'rgrep)
+;(define-key my-keys-minor-mode-map (kbd "C-c C-k") 'ido-kill-buffer)
+;(define-key my-keys-minor-mode-map (kbd "C-c C-l") 'recenter-top-bottom)
+;;(define-key my-keys-minor-mode-map (kbd "C-c C-;") 'align-regexp)
+;(define-key my-keys-minor-mode-map (kbd "C-c C-'") 'align-regexp)
+
+;(define-key my-keys-minor-mode-map (kbd "C-c C-SPC") 'push-mark-no-activate)
+;;(define-key my-keys-minor-mode-map (kbd "C-c C-n") 'magit-status)
+;(define-key my-keys-minor-mode-map (kbd "C-c C-m") 'magit-status)
+;;(define-key my-keys-minor-mode-map (kbd "C-c C-,") 'magit-status)
+;;(define-key my-keys-minor-mode-map (kbd "C-c C-.") 'magit-status)
+;;(define-key my-keys-minor-mode-map (kbd "C-c C-/") 'magit-status)
+
+
 
 ;;; number keys
 (define-key my-keys-minor-mode-map (kbd "C-1") 'delete-other-windows)
@@ -154,7 +229,7 @@
 (define-key my-keys-minor-mode-map (kbd "C-6") 'isearch-forward)
 (define-key my-keys-minor-mode-map (kbd "C-7") 'isearch-forward-word)
 (define-key my-keys-minor-mode-map (kbd "C-8") 'isearch-backward-word)
-;(define-key my-keys-minor-mode-map (kbd "C-9") 'evilnc-comment-or-uncomment-lines)
+(define-key my-keys-minor-mode-map (kbd "C-9") 'evilnc-comment-or-uncomment-region)
 (define-key my-keys-minor-mode-map (kbd "C-0") 'delete-window)
 
 ;;; keys.el ends here

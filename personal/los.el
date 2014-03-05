@@ -3,9 +3,9 @@
 (defun disable-guru-mode () (guru-mode -1))
 
 (require 'package)
-(package-initialize)
 (add-to-list 'package-archives
-             '("marmalade" . "http://marmalade-repo.org/packages/") t)
+             '("marmalade" . "http://marmalade-repo.org/packages/") )
+(package-initialize)
 
 (add-hook 'prelude-prog-mode-hook 'disable-guru-mode t)
 
