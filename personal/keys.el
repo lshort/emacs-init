@@ -71,6 +71,9 @@
 (global-set-key (kbd "C-f") 'move-end-of-line)
 ;(global-set-key (kbd "C-g") ')
 
+;(define-key c++-mode-map (kbd "C-d") 'right-word)
+;(define-key c-mode-map (kbd "C-d") 'right-word)
+
 (global-set-key (kbd "C-z") 'yank)
 ;(global-set-key (kbd "C-x") ') ;reserved as prefix command
 ;(global-set-key (kbd "C-c") ') ;reserved as prefix command
