@@ -77,15 +77,15 @@
 (define-key my-keys-minor-mode-map (kbd "C-`") 'undo)
 
 (define-key my-keys-minor-mode-map (kbd "C-q") 'kill-line)
-(define-key my-keys-minor-mode-map (kbd "C-w") 'sp-backward-kill-word)
-(define-key my-keys-minor-mode-map (kbd "C-e") 'sp-kill-word)
+(define-key my-keys-minor-mode-map (kbd "C-w") 'subword-backward-kill)
+(define-key my-keys-minor-mode-map (kbd "C-e") 'subword-kill)
 (define-key my-keys-minor-mode-map (kbd "C-r") 'sp-delete-char)
 (define-key my-keys-minor-mode-map (kbd "C-t") 'kill-whole-line)
 
 
 (define-key my-keys-minor-mode-map (kbd "C-a") 'prelude-move-beginning-of-line)
-(define-key my-keys-minor-mode-map (kbd "C-s") 'left-word)
-(define-key my-keys-minor-mode-map (kbd "C-d") 'right-word)
+(define-key my-keys-minor-mode-map (kbd "C-s") 'subword-backward)
+(define-key my-keys-minor-mode-map (kbd "C-d") 'subword-forward)
 (define-key my-keys-minor-mode-map (kbd "C-f") 'move-end-of-line)
 ;(define-key my-keys-minor-mode-map (kbd "C-g") ')
 
@@ -132,6 +132,16 @@
 (define-key my-keys-minor-mode-map (kbd "C-x C-v") 'next-error) ; compilation mode
 (define-key my-keys-minor-mode-map (kbd "C-x C-r") 'revert-buffer)
 (define-key my-keys-minor-mode-map (kbd "C-x C-i") 'indent-region)
+(define-key my-keys-minor-mode-map (kbd "C-x C-r") 'transpose-words)
+(define-key my-keys-minor-mode-map (kbd "C-x C-t") 'delete-horizontal-space)
+(define-key my-keys-minor-mode-map (kbd "C-x C-j") 'rgrep)
+(define-key my-keys-minor-mode-map (kbd "C-x C-w") 'ibuffer)
+(define-key my-keys-minor-mode-map (kbd "C-x C-m") 'magit-status)
+(define-key my-keys-minor-mode-map (kbd "C-x C-y") 'occur)  ; greppish
+(define-key my-keys-minor-mode-map (kbd "C-x C-u") 'multi-occur-in-this-mode)
+(define-key my-keys-minor-mode-map (kbd "C-x C-'") 'align-regexp)
+
+
 
 (define-key my-keys-minor-mode-map (kbd "C-n") 'other-window)
 ;(define-key my-keys-minor-mode-map (kbd "C-m") 'hippie-expand) ; RETURN key
