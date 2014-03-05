@@ -39,12 +39,6 @@
 
 ;(define-key my-keys-minor-mode-map (kbd "C-c C-c") 'execute-extended-command)
 (define-key my-keys-minor-mode-map (kbd "C-c C-c") 'smex)
-(define-key my-keys-minor-mode-map (kbd "C-x C-d") 'bury-buffer)
-(define-key my-keys-minor-mode-map (kbd "C-o") 'undo)
-(define-key my-keys-minor-mode-map (kbd "C-,") 'copy-to-register)
-(define-key my-keys-minor-mode-map (kbd "C-.") 'insert-register)
-(define-key my-keys-minor-mode-map (kbd "C-'") 'kill-ring-save)
-(define-key my-keys-minor-mode-map (kbd "C-;") 'delete-horizontal-space)
 
 (define-key my-keys-minor-mode-map (kbd "C-c l") 'org-store-link)
 (define-key my-keys-minor-mode-map (kbd "C-c a") 'org-agenda)
@@ -84,7 +78,7 @@
 (define-key my-keys-minor-mode-map (kbd "C-t") 'kill-whole-line)
 
 
-(define-key my-keys-minor-mode-map (kbd "C-a") 'prelude-move-beginning-of-line)
+(define-key my-keys-minor-mode-map (kbd "C-a") 'beginning-of-line)
 (define-key my-keys-minor-mode-map (kbd "C-s") 'subword-backward)
 (define-key my-keys-minor-mode-map (kbd "C-d") 'subword-forward)
 (define-key my-keys-minor-mode-map (kbd "C-f") 'move-end-of-line)
