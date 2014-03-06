@@ -20,6 +20,9 @@
 (require 'smex)
 (require 'god-mode)
 
+(require 'smartscan)
+(global-smartscan-mode 1)
+
 ;(add-hook 'prog-mode-hook 'predule-turn-off-whitespace t)
 
 ;(require 'pink-bliss)
