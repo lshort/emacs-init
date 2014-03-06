@@ -38,7 +38,10 @@ Equivalent to \\[set-mark-command] when \\[transient-mark-mode] is disabled"
                (lambda () (subword-mode 1)))
 
 (add-hook 'c++-mode-common-hook
-               (lambda () (subword-mode 1)))
+          (lambda () (subword-mode 1)))
+
+(add-hook 'python-mode-common-hook
+          (lambda () (subword-mode 1)))
 
 
 
