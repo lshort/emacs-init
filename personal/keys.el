@@ -104,8 +104,8 @@
 (define-key my-keys-minor-mode-map (kbd "C-o") 'copy-to-register)
 (define-key my-keys-minor-mode-map (kbd "C-p") 'insert-register)
 ;(define-key my-keys-minor-mode-map (kbd "C-[]") ')  ; ESCAPE key
-(define-key my-keys-minor-mode-map (kbd "C-]") 'query-replace)
-(define-key my-keys-minor-mode-map (kbd "C-\\") 'replace-string)
+(define-key my-keys-minor-mode-map (kbd "C-]") 'query-replace-regexp)
+(define-key my-keys-minor-mode-map (kbd "C-\\") 'replace-string-regexp)
 
 (define-key my-keys-minor-mode-map (kbd "C-h") 'ace-jump-mode)
 (define-key my-keys-minor-mode-map (kbd "C-j") 'backward-char)
@@ -134,7 +134,7 @@
 ;go to first nonwhitespace
 (define-key my-keys-minor-mode-map (kbd "C-x C-s") 'ido-goto-symbol)
 ;(define-key my-keys-minor-mode-map (kbd "C-x C-d") 'ido-goto-symbol)
-;(define-key my-keys-minor-mode-map (kbd "C-x C-f") 'ido-goto-symbol)
+(define-key my-keys-minor-mode-map (kbd "C-x C-f") 'zap-to-char)
 (define-key my-keys-minor-mode-map (kbd "C-x C-g") 'goto-line)
 
 (define-key my-keys-minor-mode-map (kbd "C-x C-z") 'yank-pop)
@@ -181,8 +181,8 @@
 ;(define-key my-keys-minor-mode-map (kbd "C-c C-t") 'delete-horizontal-space)
 
 ;(define-key my-keys-minor-mode-map (kbd "C-c C-a") 'back-to-indentation) ;
-;(define-key my-keys-minor-mode-map (kbd "C-c C-s") 'ido-goto-symbol)
-;;(define-key my-keys-minor-mode-map (kbd "C-c C-d") 'ido-goto-symbol)
+(define-key my-keys-minor-mode-map (kbd "C-c C-s") 'smartscan-symbol-go-backward)
+(define-key my-keys-minor-mode-map (kbd "C-c C-d") 'smartscan-symbol-go-forward)
 ;;(define-key my-keys-minor-mode-map (kbd "C-c C-f") 'ido-goto-symbol)
 ;(define-key my-keys-minor-mode-map (kbd "C-c C-g") 'goto-line)
 
