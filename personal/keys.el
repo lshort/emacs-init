@@ -24,12 +24,6 @@
 
 (define-key my-keys-minor-mode-map (kbd "<escape>") 'god-mode-all)
 
-(define-key my-keys-minor-mode-map (kbd "M-g") 'goto-line)
-(define-key my-keys-minor-mode-map (kbd "M-h") 'jump-to-register)
-(define-key my-keys-minor-mode-map (kbd "M-j") 'point-to-register)
-(define-key my-keys-minor-mode-map (kbd "M-o") 'prelude-smart-open-line)
-;(define-key my-keys-minor-mode-map (kbd "M-o") 'vi-open-line-below)
-
 
 (define-key my-keys-minor-mode-map (kbd "<home>") 'beginning-of-buffer)
 (define-key my-keys-minor-mode-map (kbd "<end>") 'end-of-buffer)
@@ -65,6 +59,9 @@
 
 
 ;;; ********* God Mode key bindings
+
+
+;;; basic control characters
 
 ;;; left hand
 (define-key my-keys-minor-mode-map (kbd "C-`") 'undo)
@@ -264,6 +261,58 @@
 ;;(define-key my-keys-minor-mode-map (kbd "C-h C-,") 'magit-status)
 ;;(define-key my-keys-minor-mode-map (kbd "C-h C-.") 'magit-status)
 ;;(define-key my-keys-minor-mode-map (kbd "C-h C-/") 'magit-status)
+
+
+
+;;; M- characters
+
+;;; left hand
+
+;(define-key my-keys-minor-mode-map (kbd "M-q") 'kill-line)
+;(define-key my-keys-minor-mode-map (kbd "M-w") 'subword-backward-kill)
+;(define-key my-keys-minor-mode-map (kbd "M-e") 'subword-kill)
+;(define-key my-keys-minor-mode-map (kbd "M-r") 'sp-delete-char)
+(define-key my-keys-minor-mode-map (kbd "M-t") 'subword-transpose)
+
+
+;(define-key my-keys-minor-mode-map (kbd "M-a") 'beginning-of-line)
+;(define-key my-keys-minor-mode-map (kbd "M-s") 'subword-backward)
+(define-key my-keys-minor-mode-map (kbd "M-d") 'sp-kill-word)
+;(define-key my-keys-minor-mode-map (kbd "M-f") 'move-end-of-line)
+(define-key my-keys-minor-mode-map (kbd "M-g") 'goto-line)
+
+;(define-key my-keys-minor-mode-map (kbd "M-z") 'yank)
+(define-key my-keys-minor-mode-map (kbd "M-x") 'smex)
+(define-key my-keys-minor-mode-map (kbd "M-c") 'subword-capitalize)
+;(define-key my-keys-minor-mode-map (kbd "M-v") 'kill-ring-save) ; copy
+;(define-key my-keys-minor-mode-map (kbd "M-b") 'kill-region) ; cut
+
+;;; right hand
+(define-key my-keys-minor-mode-map (kbd "M--") 'negative-argument)
+;(define-key my-keys-minor-mode-map (kbd "M-=") 'save-some-buffers)
+
+;(define-key my-keys-minor-mode-map (kbd "M-y") 'beginning-of-buffer)
+;(define-key my-keys-minor-mode-map (kbd "M-u") 'ace-jump-mode)
+(define-key my-keys-minor-mode-map (kbd "M-i") 'tab-to-tab-stop)
+(define-key my-keys-minor-mode-map (kbd "M-o") 'prelude-smart-open-line)
+;(define-key my-keys-minor-mode-map (kbd "M-p") 'end-of-buffer)
+;(define-key my-keys-minor-mode-map (kbd "M-[]") ')
+;(define-key my-keys-minor-mode-map (kbd "M-]") 'query-replace-regexp)
+;(define-key my-keys-minor-mode-map (kbd "M-\\") 'replace-string-regexp)
+
+(define-key my-keys-minor-mode-map (kbd "M-h") 'jump-to-register)
+(define-key my-keys-minor-mode-map (kbd "M-j") 'point-to-register)
+;(define-key my-keys-minor-mode-map (kbd "M-k") 'next-line)
+(define-key my-keys-minor-mode-map (kbd "M-l") 'subword-downcase)
+;(define-key my-keys-minor-mode-map (kbd "M-;") 'forward-char)
+(define-key my-keys-minor-mode-map (kbd "M-'") 'smartscan-symbol-replace)
+
+
+;(define-key my-keys-minor-mode-map (kbd "M-n") 'other-window)
+;(define-key my-keys-minor-mode-map (kbd "M-m") 'hippie-expand)
+;(define-key my-keys-minor-mode-map (kbd "M-,") 'ido-switch-buffer)
+;(define-key my-keys-minor-mode-map (kbd "M-.") 'bury-buffer)
+;(define-key my-keys-minor-mode-map (kbd "M-/") 'string-rectangle)
 
 
 
