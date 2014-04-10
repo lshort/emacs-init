@@ -61,7 +61,7 @@ Equivalent to \\[set-mark-command] when \\[transient-mark-mode] is disabled"
 (defun my-update-cursor ()
   (god-mode-update-cursor)
   (setq cursor-type (if (or god-local-mode buffer-read-only)
-                      'box
+                      'bar
                       'hollow)))
 
 (add-hook 'god-mode-enabled-hook 'my-update-cursor)
