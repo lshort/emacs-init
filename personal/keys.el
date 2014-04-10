@@ -289,7 +289,7 @@
 
 ;;; right hand
 (define-key my-keys-minor-mode-map (kbd "M--") 'negative-argument)
-;(define-key my-keys-minor-mode-map (kbd "M-=") 'save-some-buffers)
+(define-key my-keys-minor-mode-map (kbd "M-=") 'evilnc-comment-or-uncomment-region)
 
 ;(define-key my-keys-minor-mode-map (kbd "M-y") 'beginning-of-buffer)
 ;(define-key my-keys-minor-mode-map (kbd "M-u") 'ace-jump-mode)
