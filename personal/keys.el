@@ -324,7 +324,7 @@
 (define-key my-keys-minor-mode-map (kbd "C-5") 'forward-sexp)
 (define-key my-keys-minor-mode-map (kbd "C-6") 'isearch-forward)
 (define-key my-keys-minor-mode-map (kbd "C-7") 'isearch-forward-word)
-(define-key my-keys-minor-mode-map (kbd "C-8") 'hippie-expand)
+(define-key my-keys-minor-mode-map (kbd "C-8") 'join-line)
 (define-key my-keys-minor-mode-map (kbd "C-9") 'undo)
 (define-key my-keys-minor-mode-map (kbd "C-0") 'delete-window)
 
