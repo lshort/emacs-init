@@ -120,8 +120,8 @@
 
 ;;; left hand
 (define-key my-keys-minor-mode-map (kbd "C-x C-q") 'transpose-words)
-(define-key my-keys-minor-mode-map (kbd "C-x C-w") 'ibuffer)
-;(define-key my-keys-minor-mode-map (kbd "C-x C-e") 'ibuffer)
+(define-key my-keys-minor-mode-map (kbd "C-x C-w") 'write-file)
+(define-key my-keys-minor-mode-map (kbd "C-x C-e") 'ibuffer)
 (define-key my-keys-minor-mode-map (kbd "C-x C-r") 'revert-buffer)
 (define-key my-keys-minor-mode-map (kbd "C-x C-t") 'delete-horizontal-space)
 
