@@ -142,7 +142,7 @@
 ;(define-key my-keys-minor-mode-map (kbd "C-x C--") 'magit-status)
 ;(define-key my-keys-minor-mode-map (kbd "C-x C-=") 'magit-status)
 
-(define-key my-keys-minor-mode-map (kbd "C-x C-y") 'occur)  ; greppish
+(define-key my-keys-minor-mode-map (kbd "C-x C-y") 'rgrep)  ; greppish
 (define-key my-keys-minor-mode-map (kbd "C-x C-u") 'multi-occur-in-this-mode)
 (define-key my-keys-minor-mode-map (kbd "C-x C-i") 'indent-region)
 (define-key my-keys-minor-mode-map (kbd "C-x C-o") 'bookmark-set)
@@ -152,7 +152,7 @@
 (define-key my-keys-minor-mode-map (kbd "C-x C-\\") 'evilnc-comment-or-uncomment-lines)
 
 ;(define-key my-keys-minor-mode-map (kbd "C-x C-h") 'evilnc)
-(define-key my-keys-minor-mode-map (kbd "C-x C-j") 'rgrep)
+(define-key my-keys-minor-mode-map (kbd "C-x C-j") 'join-line)
 (define-key my-keys-minor-mode-map (kbd "C-x C-k") 'ido-kill-buffer)
 (define-key my-keys-minor-mode-map (kbd "C-x C-l") 'recenter-top-bottom)
 ;(define-key my-keys-minor-mode-map (kbd "C-x C-;") 'align-regexp)
@@ -248,7 +248,7 @@
 ;;(define-key my-keys-minor-mode-map (kbd "C-h C-]") 'bookmark-jump)
 ;(define-key my-keys-minor-mode-map (kbd "C-h C-\\") 'uncomment-lines)
 
-;(define-key my-keys-minor-mode-map (kbd "C-h C-h") 'ace-jump-char-mode)
+(define-key my-keys-minor-mode-map (kbd "C-h C-h") 'occur)
 ;(define-key my-keys-minor-mode-map (kbd "C-h C-j") 'rgrep)
 ;(define-key my-keys-minor-mode-map (kbd "C-h C-k") 'ido-kill-buffer)
 ;(define-key my-keys-minor-mode-map (kbd "C-h C-l") 'recenter-top-bottom)
@@ -324,7 +324,7 @@
 (define-key my-keys-minor-mode-map (kbd "C-5") 'forward-sexp)
 (define-key my-keys-minor-mode-map (kbd "C-6") 'isearch-forward)
 (define-key my-keys-minor-mode-map (kbd "C-7") 'isearch-forward-word)
-(define-key my-keys-minor-mode-map (kbd "C-8") 'join-line)
+;(define-key my-keys-minor-mode-map (kbd "C-8") 'join-line)
 (define-key my-keys-minor-mode-map (kbd "C-9") 'undo)
 (define-key my-keys-minor-mode-map (kbd "C-0") 'delete-window)
 
