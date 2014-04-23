@@ -94,7 +94,7 @@
 (define-key my-keys-minor-mode-map (kbd "C-=") 'save-some-buffers)
 
 (define-key my-keys-minor-mode-map (kbd "C-y") 'beginning-of-buffer)
-(define-key my-keys-minor-mode-map (kbd "C-u") 'ace-jump-mode)
+(define-key my-keys-minor-mode-map (kbd "C-u") 'ace-jump-char-mode)
 ;(define-key my-keys-minor-mode-map (kbd "C-i") ')  ; TAB key
 (define-key my-keys-minor-mode-map (kbd "C-o") 'ace-jump-line-mode)
 (define-key my-keys-minor-mode-map (kbd "C-p") 'end-of-buffer)
@@ -107,7 +107,7 @@
 (define-key my-keys-minor-mode-map (kbd "C-k") 'next-line)
 (define-key my-keys-minor-mode-map (kbd "C-l") 'previous-line)
 (define-key my-keys-minor-mode-map (kbd "C-;") 'forward-char)
-(define-key my-keys-minor-mode-map (kbd "C-'") 'vi-open-line-below)
+(define-key my-keys-minor-mode-map (kbd "C-'") 'prelude-open-line)
 
 
 (define-key my-keys-minor-mode-map (kbd "C-n") 'other-window)
@@ -169,9 +169,9 @@
 ;;; ************************** Control-C mappings
 
 ;;; left hand
-;(define-key my-keys-minor-mode-map (kbd "C-c C-q") 'transpose-words)
-;(define-key my-keys-minor-mode-map (kbd "C-c C-w") 'ibuffer)
-;(define-key my-keys-minor-mode-map (kbd "C-c C-e") 'ibuffer)
+(define-key my-keys-minor-mode-map (kbd "C-c C-q") 'my-smart-shrink)
+(define-key my-keys-minor-mode-map (kbd "C-c C-w") 'shrink-window)
+;(define-key my-keys-minor-mode-map (kbd "C-c C-e") 'shrink-window)
 ;(define-key my-keys-minor-mode-map (kbd "C-c C-r") 'revert-buffer)
 ;(define-key my-keys-minor-mode-map (kbd "C-c C-t") 'delete-horizontal-space)
 
@@ -240,7 +240,7 @@
 ;;(define-key my-keys-minor-mode-map (kbd "C-h C-=") 'magit-status)
 
 ;(define-key my-keys-minor-mode-map (kbd "C-h C-y") 'occur)  ; greppish
-;(define-key my-keys-minor-mode-map (kbd "C-h C-u") 'multi-occur-in-this-mode)
+(define-key my-keys-minor-mode-map (kbd "C-h C-u") 'ace-jump-mode)
 ;(define-key my-keys-minor-mode-map (kbd "C-h C-i") 'indent-region)
 ;(define-key my-keys-minor-mode-map (kbd "C-h C-o") 'bookmark-set)
 ;(define-key my-keys-minor-mode-map (kbd "C-h C-p") 'bookmark-jump)
@@ -248,7 +248,7 @@
 ;;(define-key my-keys-minor-mode-map (kbd "C-h C-]") 'bookmark-jump)
 ;(define-key my-keys-minor-mode-map (kbd "C-h C-\\") 'uncomment-lines)
 
-;;(define-key my-keys-minor-mode-map (kbd "C-h C-h") 'evilnc)
+;(define-key my-keys-minor-mode-map (kbd "C-h C-h") 'ace-jump-char-mode)
 ;(define-key my-keys-minor-mode-map (kbd "C-h C-j") 'rgrep)
 ;(define-key my-keys-minor-mode-map (kbd "C-h C-k") 'ido-kill-buffer)
 ;(define-key my-keys-minor-mode-map (kbd "C-h C-l") 'recenter-top-bottom)
@@ -268,8 +268,8 @@
 
 ;;; left hand
 
-;(define-key my-keys-minor-mode-map (kbd "M-q") 'kill-line)
-;(define-key my-keys-minor-mode-map (kbd "M-w") 'subword-backward-kill)
+(define-key my-keys-minor-mode-map (kbd "M-q") 'my-smart-shrink)
+(define-key my-keys-minor-mode-map (kbd "M-w") 'shrink-window)
 ;(define-key my-keys-minor-mode-map (kbd "M-e") 'subword-kill)
 ;(define-key my-keys-minor-mode-map (kbd "M-r") 'sp-delete-char)
 (define-key my-keys-minor-mode-map (kbd "M-t") 'subword-transpose)
@@ -308,9 +308,9 @@
 (define-key my-keys-minor-mode-map (kbd "M-'") 'smartscan-symbol-replace)
 
 
-;(define-key my-keys-minor-mode-map (kbd "M-n") 'other-window)
+(define-key my-keys-minor-mode-map (kbd "M-n") 'other-window)
 ;(define-key my-keys-minor-mode-map (kbd "M-m") 'hippie-expand)
-;(define-key my-keys-minor-mode-map (kbd "M-,") 'ido-switch-buffer)
+(define-key my-keys-minor-mode-map (kbd "M-,") 'ido-switch-buffer)
 ;(define-key my-keys-minor-mode-map (kbd "M-.") 'bury-buffer)
 ;(define-key my-keys-minor-mode-map (kbd "M-/") 'string-rectangle)
 

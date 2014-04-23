@@ -66,3 +66,14 @@ Equivalent to \\[set-mark-command] when \\[transient-mark-mode] is disabled"
 
 (add-hook 'god-mode-enabled-hook 'my-update-cursor)
 (add-hook 'god-mode-disabled-hook 'my-update-cursor)
+
+(defun shrink-window-3 ()
+  (interactive)
+  (shrink-window 3)
+  )
+
+(defun my-smart-shrink ()
+  (interactive)
+  (shrink-window-3)
+  (shrink-window-if-larger-than-buffer)
+  )
