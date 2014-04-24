@@ -49,13 +49,15 @@ Equivalent to \\[set-mark-command] when \\[transient-mark-mode] is disabled"
 
 
 (defun god-mode-update-cursor ()
-  (let ((limited-colors-p (> 257 (length (defined-colors)))))
+  (let* ((limited-colors-p (> 257 (length (defined-colors))))
+        (white (if limited-colors-p "white" "#e9e2cb"))
+        (black (if limited-colors-p "black" "#0a2832")))
     (cond ((not god-local-mode) (progn
-                            (set-face-background 'mode-line (if limited-colors-p "white" "#e9e2cb"))
-                            (set-face-background 'mode-line-inactive (if limited-colors-p "white" "#e9e2cb"))))
-          (t (progn
-               (set-face-background 'mode-line (if limited-colors-p "black" "#0a2832"))
-               (set-face-background 'mode-line-inactive (if limited-colors-p "black" "#0a2832")))))))
+                            (set-face-background 'mode-line white)
+                            (set-face-background 'mode-line-inactive white)))
+           (t (progn
+                (set-face-background 'mode-line black)
+                (set-face-background 'mode-line-inactive black))))))
 
 
 (defun my-update-cursor ()
