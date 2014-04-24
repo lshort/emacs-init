@@ -151,7 +151,7 @@
 ;(define-key my-keys-minor-mode-map (kbd "C-x C-]") 'bookmark-jump)
 (define-key my-keys-minor-mode-map (kbd "C-x C-\\") 'evilnc-comment-or-uncomment-lines)
 
-;(define-key my-keys-minor-mode-map (kbd "C-x C-h") 'evilnc)
+(define-key my-keys-minor-mode-map (kbd "C-x C-h") 'smartscan-occur)
 (define-key my-keys-minor-mode-map (kbd "C-x C-j") 'join-line)
 (define-key my-keys-minor-mode-map (kbd "C-x C-k") 'ido-kill-buffer)
 (define-key my-keys-minor-mode-map (kbd "C-x C-l") 'recenter-top-bottom)

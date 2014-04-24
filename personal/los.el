@@ -79,3 +79,14 @@ Equivalent to \\[set-mark-command] when \\[transient-mark-mode] is disabled"
   (shrink-window-3)
   (shrink-window-if-larger-than-buffer)
   )
+
+(require 'thingatpt)
+
+(defun smartscan-occur ()
+  (interactive)
+  (occur (thing-at-point 'word))
+)
+
+(defun my-scan() (interactive) (smartscan-symbol-at-pt 'beginning))
+
+; los.el ends here
