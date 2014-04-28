@@ -1,4 +1,6 @@
 *~
+.emacs.d
+cedet*
 session*
 backup
 backups
