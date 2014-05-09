@@ -208,8 +208,8 @@
 ;(define-key my-keys-minor-mode-map (kbd "C-c C-'") 'align-regexp)
 
 ;(define-key my-keys-minor-mode-map (kbd "C-c C-SPC") 'push-mark-no-activate)
-;;(define-key my-keys-minor-mode-map (kbd "C-c C-n") 'magit-status)
-;(define-key my-keys-minor-mode-map (kbd "C-c C-m") 'magit-status)
+(define-key my-keys-minor-mode-map (kbd "C-c C-n") 'narrow-to-region)
+(define-key my-keys-minor-mode-map (kbd "C-c C-m") 'widen)
 ;;(define-key my-keys-minor-mode-map (kbd "C-c C-,") 'magit-status)
 ;;(define-key my-keys-minor-mode-map (kbd "C-c C-.") 'magit-status)
 ;;(define-key my-keys-minor-mode-map (kbd "C-c C-/") 'magit-status)
