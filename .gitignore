@@ -1,6 +1,10 @@
 *~
+.emacs.d
+cedet*
 session*
 backup
 backups
 auto-save-list
+..
+
 
