@@ -90,7 +90,7 @@
 (define-key my-keys-minor-mode-map (kbd "C-b") 'kill-region) ; cut
 
 ;;; right hand
-(define-key my-keys-minor-mode-map (kbd "C--") 'ido-find-file)
+(define-key my-keys-minor-mode-map (kbd "C--") 'zap-to-char)
 (define-key my-keys-minor-mode-map (kbd "C-=") 'save-some-buffers)
 
 (define-key my-keys-minor-mode-map (kbd "C-y") 'beginning-of-buffer)
@@ -129,7 +129,7 @@
 ;go to first nonwhitespace
 (define-key my-keys-minor-mode-map (kbd "C-x C-s") 'ido-goto-symbol)
 ;(define-key my-keys-minor-mode-map (kbd "C-x C-d") 'ido-goto-symbol)
-(define-key my-keys-minor-mode-map (kbd "C-x C-f") 'zap-to-char)
+(define-key my-keys-minor-mode-map (kbd "C-x C-f") 'ido-find-file)
 (define-key my-keys-minor-mode-map (kbd "C-x C-g") 'goto-line)
 
 (define-key my-keys-minor-mode-map (kbd "C-x C-z") 'yank-pop)
