@@ -89,4 +89,12 @@ Equivalent to \\[set-mark-command] when \\[transient-mark-mode] is disabled"
 
 (defun my-scan() (interactive) (smartscan-symbol-at-pt 'beginning))
 
+(setq prelude-whitespace nil)
+
+(defun join-next-line()
+  (interactive)
+  (next-line)
+  (join-line)
+)
+
 ; los.el ends here
