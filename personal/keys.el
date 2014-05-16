@@ -182,10 +182,10 @@
 (define-key my-keys-minor-mode-map (kbd "C-c C-g") 'jump-to-register)
 
 ;(define-key my-keys-minor-mode-map (kbd "C-c C-z") 'yank-pop)
-(define-key my-keys-minor-mode-map (kbd "C-c C-c") 'smex)   ; M-x
-(define-key my-keys-minor-mode-map (kbd "C-c C-c") 'insert-register) ;
-(define-key my-keys-minor-mode-map (kbd "C-c C-v") 'copy-to-register) ;
-;;(define-key my-keys-minor-mode-map (kbd "C-c C-b") 'next-error) ;
+(define-key my-keys-minor-mode-map (kbd "C-c C-x") 'smex)   ; M-x
+(define-key my-keys-minor-mode-map (kbd "C-c C-c") 'compile) ;
+(define-key my-keys-minor-mode-map (kbd "C-c C-v") 'insert-register) ;
+(define-key my-keys-minor-mode-map (kbd "C-c C-b") 'copy-to-register) ;
 
 ;;; right hand
 ;;(define-key my-keys-minor-mode-map (kbd "C-c C--") 'magit-status)
