@@ -38,7 +38,9 @@
 (define-key my-keys-minor-mode-map [f9] 'exit-recursive-edit)
 (define-key my-keys-minor-mode-map [f10] 'apropos)
 (define-key my-keys-minor-mode-map [f11] 'describe-key)
-(define-key my-keys-minor-mode-map [f12] 'ace-jump-char-mode)
+(define-key my-keys-minor-mode-map [f12] 'hippie-expand)
+
+
 
 
 (defalias 'list-buffers 'ibuffer)
