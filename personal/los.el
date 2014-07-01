@@ -7,6 +7,9 @@
              '("marmalade" . "http://marmalade-repo.org/packages/") )
 (package-initialize)
 
+(add-to-list 'load-path "~/.emacs.d/personal/preload/helm")
+(require 'helm-config)
+
 (add-hook 'prelude-prog-mode-hook 'disable-guru-mode t)
 
 (load-theme 'light-blue t)

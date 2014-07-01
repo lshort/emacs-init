@@ -114,7 +114,7 @@
 ;(define-key my-keys-minor-mode-map (kbd "C-m") 'hippie-expand) ; RETURN key
 (define-key my-keys-minor-mode-map (kbd "C-,") 'ido-switch-buffer)
 (define-key my-keys-minor-mode-map (kbd "C-.") 'bury-buffer)
-(define-key my-keys-minor-mode-map (kbd "C-/") 'string-rectangle)
+(define-key my-keys-minor-mode-map (kbd "C-/") 'helm-select-action)
 
 ;;; ************************** Control-X mappings
 
@@ -164,7 +164,7 @@
 (define-key my-keys-minor-mode-map (kbd "C-x C-,") 'eval-defun) ;evals crnt sexp
 ;(define-key my-keys-minor-mode-map (kbd "C-x C-,") 'magit-status)
 ;(define-key my-keys-minor-mode-map (kbd "C-x C-.") 'magit-status)
-;(define-key my-keys-minor-mode-map (kbd "C-x C-/") 'magit-status)
+(define-key my-keys-minor-mode-map (kbd "C-x C-/") 'string-rectangle)
 
 ;;; ************************** Control-C mappings
 
@@ -278,11 +278,11 @@
 ;(define-key my-keys-minor-mode-map (kbd "M-a") 'beginning-of-line)
 ;(define-key my-keys-minor-mode-map (kbd "M-s") 'subword-backward)
 (define-key my-keys-minor-mode-map (kbd "M-d") 'sp-kill-word)
-;(define-key my-keys-minor-mode-map (kbd "M-f") 'move-end-of-line)
+(define-key my-keys-minor-mode-map (kbd "M-f") 'helm-show-kill-ring)
 (define-key my-keys-minor-mode-map (kbd "M-g") 'goto-line)
 
 ;(define-key my-keys-minor-mode-map (kbd "M-z") 'yank)
-(define-key my-keys-minor-mode-map (kbd "M-x") 'smex)
+(define-key my-keys-minor-mode-map (kbd "M-x") 'helm-M-x)
 (define-key my-keys-minor-mode-map (kbd "M-c") 'subword-capitalize)
 ;(define-key my-keys-minor-mode-map (kbd "M-v") 'kill-ring-save) ; copy
 ;(define-key my-keys-minor-mode-map (kbd "M-b") 'kill-region) ; cut
