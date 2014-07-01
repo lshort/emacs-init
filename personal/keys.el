@@ -128,8 +128,8 @@
 (define-key my-keys-minor-mode-map (kbd "C-x C-a") 'back-to-indentation)
 ;go to first nonwhitespace
 (define-key my-keys-minor-mode-map (kbd "C-x C-s") 'ido-goto-symbol)
-;(define-key my-keys-minor-mode-map (kbd "C-x C-d") 'ido-goto-symbol)
-(define-key my-keys-minor-mode-map (kbd "C-x C-f") 'ido-find-file)
+(define-key my-keys-minor-mode-map (kbd "C-x C-d") 'helm-man-woman)
+(define-key my-keys-minor-mode-map (kbd "C-x C-f") 'helm-find-files)
 (define-key my-keys-minor-mode-map (kbd "C-x C-g") 'goto-line)
 
 (define-key my-keys-minor-mode-map (kbd "C-x C-z") 'yank-pop)
@@ -142,7 +142,7 @@
 ;(define-key my-keys-minor-mode-map (kbd "C-x C--") 'magit-status)
 ;(define-key my-keys-minor-mode-map (kbd "C-x C-=") 'magit-status)
 
-(define-key my-keys-minor-mode-map (kbd "C-x C-y") 'rgrep)  ; greppish
+(define-key my-keys-minor-mode-map (kbd "C-x C-y") 'helm-do-grep)  ; greppish
 (define-key my-keys-minor-mode-map (kbd "C-x C-u") 'multi-occur-in-this-mode)
 (define-key my-keys-minor-mode-map (kbd "C-x C-i") 'indent-region)
 (define-key my-keys-minor-mode-map (kbd "C-x C-o") 'bookmark-set)
@@ -171,8 +171,8 @@
 ;;; left hand
 (define-key my-keys-minor-mode-map (kbd "C-c C-q") 'my-smart-shrink)
 (define-key my-keys-minor-mode-map (kbd "C-c C-w") 'shrink-window)
-;(define-key my-keys-minor-mode-map (kbd "C-c C-e") 'shrink-window)
-;(define-key my-keys-minor-mode-map (kbd "C-c C-r") 'revert-buffer)
+(define-key my-keys-minor-mode-map (kbd "C-c C-e") 'helm-find)
+(define-key my-keys-minor-mode-map (kbd "C-c C-r") 'helm-locate)
 ;(define-key my-keys-minor-mode-map (kbd "C-c C-t") 'delete-horizontal-space)
 
 (define-key my-keys-minor-mode-map (kbd "C-c C-a") 'org-agenda) ;
@@ -181,7 +181,7 @@
 (define-key my-keys-minor-mode-map (kbd "C-c C-f") 'point-to-register)
 (define-key my-keys-minor-mode-map (kbd "C-c C-g") 'jump-to-register)
 
-;(define-key my-keys-minor-mode-map (kbd "C-c C-z") 'yank-pop)
+(define-key my-keys-minor-mode-map (kbd "C-c C-z") 'helm-mini)
 (define-key my-keys-minor-mode-map (kbd "C-c C-x") 'smex)   ; M-x
 (define-key my-keys-minor-mode-map (kbd "C-c C-c") 'compile) ;
 (define-key my-keys-minor-mode-map (kbd "C-c C-v") 'insert-register) ;
@@ -225,8 +225,8 @@
 
 ;(define-key my-keys-minor-mode-map (kbd "C-h C-a") 'back-to-indentation) ;
 ;(define-key my-keys-minor-mode-map (kbd "C-h C-s") 'smartscan-symbol-go-backward)
-;(define-key my-keys-minor-mode-map (kbd "C-h C-d") 'smartscan-symbol-go-forward)
-;(define-key my-keys-minor-mode-map (kbd "C-h C-f") 'point-to-register)
+(define-key my-keys-minor-mode-map (kbd "C-h C-d") 'helm-resume)
+(define-key my-keys-minor-mode-map (kbd "C-h C-f") 'helm-apropos)
 ;(define-key my-keys-minor-mode-map (kbd "C-h C-g") 'jump-to-register)
 
 ;(define-key my-keys-minor-mode-map (kbd "C-h C-z") 'yank-pop)
@@ -249,7 +249,7 @@
 ;(define-key my-keys-minor-mode-map (kbd "C-h C-\\") 'uncomment-lines)
 
 (define-key my-keys-minor-mode-map (kbd "C-h C-h") 'occur)
-;(define-key my-keys-minor-mode-map (kbd "C-h C-j") 'rgrep)
+(define-key my-keys-minor-mode-map (kbd "C-h C-j") 'helm-occur)
 ;(define-key my-keys-minor-mode-map (kbd "C-h C-k") 'ido-kill-buffer)
 ;(define-key my-keys-minor-mode-map (kbd "C-h C-l") 'recenter-top-bottom)
 ;;(define-key my-keys-minor-mode-map (kbd "C-h C-;") 'align-regexp)
