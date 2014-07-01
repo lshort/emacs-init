@@ -38,7 +38,7 @@
 (define-key my-keys-minor-mode-map [f9] 'exit-recursive-edit)
 (define-key my-keys-minor-mode-map [f10] 'apropos)
 (define-key my-keys-minor-mode-map [f11] 'describe-key)
-(define-key my-keys-minor-mode-map [f12] 'hippie-expand)
+(define-key my-keys-minor-mode-map [f12] 'ace-jump-char-mode)
 
 
 (defalias 'list-buffers 'ibuffer)
@@ -288,6 +288,8 @@
 ;(define-key my-keys-minor-mode-map (kbd "M-b") 'kill-region) ; cut
 
 ;;; right hand
+(define-key my-keys-minor-mode-map (kbd "M- ") 'hippie-expand)
+
 (define-key my-keys-minor-mode-map (kbd "M--") 'negative-argument)
 (define-key my-keys-minor-mode-map (kbd "M-=") 'evilnc-comment-or-uncomment-region)
 
