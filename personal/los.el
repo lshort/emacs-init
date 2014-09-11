@@ -16,6 +16,10 @@
 
 (require 'ace-jump-mode)
 
+(add-to-list 'load-path "/path/to/rust-mode/")
+(autoload 'rust-mode "rust-mode" nil t)
+(add-to-list 'auto-mode-alist '("\\.rs\\'" . rust-mode))
+
 (require 'org)
 (setq org-log-done t)
 (setq org-default-notes-file (concat org-directory "/notes.org"))
@@ -99,5 +103,8 @@ Equivalent to \\[set-mark-command] when \\[transient-mark-mode] is disabled"
   (next-line)
   (join-line)
 )
+
+(remove-hook 'prog-mode 'flycheck-mode)
+(remove-hook 'c++-mode 'flycheck-mode)
 
 ; los.el ends here
