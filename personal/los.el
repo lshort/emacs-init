@@ -61,10 +61,14 @@ Equivalent to \\[set-mark-command] when \\[transient-mark-mode] is disabled"
         (black (if limited-colors-p "black" "#0a2832")))
     (cond ((not god-local-mode) (progn
                             (set-face-background 'mode-line white)
-                            (set-face-background 'mode-line-inactive white)))
-           (t (progn
+                            (set-face-background 'mode-line-inactive white)
+                            (set-face-foreground 'mode-line black)
+                            (set-face-foreground 'mode-line-inactive black)))
+          (t (progn
                 (set-face-background 'mode-line black)
-                (set-face-background 'mode-line-inactive black))))))
+                (set-face-background 'mode-line-inactive black)
+                (set-face-foreground 'mode-line white)
+                (set-face-foreground 'mode-line-inactive white))))))
 
 
 (defun my-update-cursor ()
