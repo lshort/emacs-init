@@ -111,4 +111,14 @@ Equivalent to \\[set-mark-command] when \\[transient-mark-mode] is disabled"
 (remove-hook 'prog-mode 'flycheck-mode)
 (remove-hook 'c++-mode 'flycheck-mode)
 
-; los.el ends here
+(setq default-frame-alist '( (width . 148) (height . 60) ))
+
+(autoload 'notmuch "notmuch" "notmuch mail" t)
+
+(add-hook 'message-setup-hook 'mml-secure-message-sign-pgpmime)
+(setq send-mail-function 'smtpmail-send-it
+           smtpmail-smtp-server "localhost"
+           smtpmail-smtp-service 1025)
+
+; los ends here
+
