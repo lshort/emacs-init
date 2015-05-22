@@ -120,5 +120,9 @@ Equivalent to \\[set-mark-command] when \\[transient-mark-mode] is disabled"
            smtpmail-smtp-server "localhost"
            smtpmail-smtp-service 1025)
 
+(setq ruby-indent-level 4)
+
+(set-face-attribute 'default nil :font "-unknown-Ubuntu Mono-normal-normal-normal-*-21-*-*-*-m-0-iso10646-1")
+
 ; los ends here
 

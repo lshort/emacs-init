@@ -135,7 +135,7 @@
 (define-key my-keys-minor-mode-map (kbd "C-x C-g") 'goto-line)
 
 (define-key my-keys-minor-mode-map (kbd "C-x C-z") 'yank-pop)
-(define-key my-keys-minor-mode-map (kbd "C-x C-x") 'prelude-exchange-point-and-mark)
+(define-key my-keys-minor-mode-map (kbd "C-x C-x") 'exchange-point-and-mark)
 ;(define-key my-keys-minor-mode-map (kbd "C-x C-c") 'yank-pop) ; exit-emacs
 (define-key my-keys-minor-mode-map (kbd "C-x C-v") 'next-error) ;compilation mode
 ;(define-key my-keys-minor-mode-map (kbd "C-x C-b") 'next-error) ;
