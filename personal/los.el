@@ -5,6 +5,10 @@
 (require 'package)
 (add-to-list 'package-archives
              '("marmalade" . "http://marmalade-repo.org/packages/") )
+(add-to-list 'package-archives
+             '("melpa-stable" . "http://melpa-stable.milkbox.net/packages/") t)
+
+
 (package-initialize)
 
 (add-to-list 'load-path "~/.emacs.d/personal/preload/helm")
@@ -26,7 +30,7 @@
 
 (require 'smex)
 (require 'god-mode)
-
+(require 'auto-complete)
 (require 'smartscan)
 (global-smartscan-mode 1)
 
@@ -123,6 +127,7 @@ Equivalent to \\[set-mark-command] when \\[transient-mark-mode] is disabled"
 (setq ruby-indent-level 4)
 
 (set-face-attribute 'default nil :font "-unknown-Ubuntu Mono-normal-normal-normal-*-21-*-*-*-m-0-iso10646-1")
+(ac-config-default)
 
 ; los ends here
 
