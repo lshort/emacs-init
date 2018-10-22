@@ -146,7 +146,8 @@
 
 (define-key my-keys-minor-mode-map (kbd "C-x C-y") 'helm-do-grep)  ; greppish
 (define-key my-keys-minor-mode-map (kbd "C-x C-u") 'multi-occur-in-this-mode)
-(define-key my-keys-minor-mode-map (kbd "C-x C-i") 'indent-region)
+(define-key my-keys-minor-mode-map (kbd "C-x C-i") 'clang-format-region)
+;(define-key my-keys-minor-mode-map (kbd "C-x C-i") 'indent-region)
 (define-key my-keys-minor-mode-map (kbd "C-x C-o") 'bookmark-set)
 (define-key my-keys-minor-mode-map (kbd "C-x C-p") 'bookmark-jump)
 ;(define-key my-keys-minor-mode-map (kbd "C-x C-[]") 'bookmark-jump)
