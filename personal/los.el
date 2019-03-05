@@ -32,7 +32,9 @@
 (require 'god-mode)
 (require 'auto-complete)
 (require 'smartscan)
+(require 'clang-format)
 (global-smartscan-mode 1)
+
 
 ;(add-hook 'prog-mode-hook 'predule-turn-off-whitespace t)
 
@@ -115,7 +117,7 @@ Equivalent to \\[set-mark-command] when \\[transient-mark-mode] is disabled"
 (remove-hook 'prog-mode 'flycheck-mode)
 (remove-hook 'c++-mode 'flycheck-mode)
 
-(setq default-frame-alist '( (width . 212) (height . 60) ))
+(setq default-frame-alist '( (width . 272) (height . 80) ))
 
 (autoload 'notmuch "notmuch" "notmuch mail" t)
 
@@ -129,6 +131,17 @@ Equivalent to \\[set-mark-command] when \\[transient-mark-mode] is disabled"
 ;(set-face-attribute 'default nil :font "-unknown-Ubuntu Mono-normal-normal-normal-*-21-*-*-*-m-0-iso10646-1")
 (ac-config-default)
 (menu-bar-mode 1)
+
+(defun split-3-windows-horizontally-evenly ()
+  (interactive)
+  (command-execute 'split-window-horizontally)
+  (command-execute 'split-window-horizontally)
+  (command-execute 'balance-windows)
+  )
+
+(defadvice split-window-horizontally (after rebalance-windows activate)
+  (balance-windows))
+(ad-activate 'split-window-horizontally)
 
 ; los ends here
 
