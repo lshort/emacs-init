@@ -13,6 +13,7 @@
 
 (add-to-list 'load-path "~/.emacs.d/personal/preload/helm")
 (require 'helm-config)
+(require 'clang-format)
 
 (add-hook 'prelude-prog-mode-hook 'disable-guru-mode t)
 
@@ -127,6 +128,9 @@ Equivalent to \\[set-mark-command] when \\[transient-mark-mode] is disabled"
            smtpmail-smtp-service 1025)
 
 (setq ruby-indent-level 4)
+
+(setq c-basic-offset 3)
+(setq c-indent-level 3)
 
 ;(set-face-attribute 'default nil :font "-unknown-Ubuntu Mono-normal-normal-normal-*-21-*-*-*-m-0-iso10646-1")
 (ac-config-default)
