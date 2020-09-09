@@ -117,7 +117,7 @@ Equivalent to \\[set-mark-command] when \\[transient-mark-mode] is disabled"
 (remove-hook 'prog-mode 'flycheck-mode)
 (remove-hook 'c++-mode 'flycheck-mode)
 
-(setq default-frame-alist '( (width . 272) (height . 80) ))
+(setq default-frame-alist '( (width . 276) (height . 80) ))
 
 (autoload 'notmuch "notmuch" "notmuch mail" t)
 
@@ -142,6 +142,25 @@ Equivalent to \\[set-mark-command] when \\[transient-mark-mode] is disabled"
 (defadvice split-window-horizontally (after rebalance-windows activate)
   (balance-windows))
 (ad-activate 'split-window-horizontally)
+
+(defadvice
+    isearch-forward
+    (after isearch-forward-recenter activate)
+  (recenter))
+(ad-activate 'isearch-forward)
+
+(defadvice
+    isearch-repeat-forward
+    (after isearch-repeat-forward-recenter activate)
+  (recenter))
+(ad-activate 'isearch-repeat-forward)
+
+(defadvice
+    isearch-repeat-backward
+    (after isearch-repeat-backward-recenter activate)
+  (recenter))
+(ad-activate 'isearch-repeat-backward)
+
 
 ; los ends here
 
